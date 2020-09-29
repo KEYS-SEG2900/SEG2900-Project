@@ -13,11 +13,11 @@ KEYS
 Team Name: Keys
 
 Team Member Names:
-Daniel Andreev- Student Number 300168201
-Maryan Khail - Student Number 30019328
-Jean-Gabriel de Montigny - Student Number 300164831
-Svetlana Esina - Student Number 300176419
-Jayden Bergevin - Student Number 300173747
+Daniel Andreev- Student Number 300168201 <br />
+Maryan Khail - Student Number 30019328 <br />
+Jean-Gabriel de Montigny - Student Number 300164831 <br />
+Svetlana Esina - Student Number 300176419 <br />
+Jayden Bergevin - Student Number 300173747 <br />
 
 Product Name: Keys
 Description:
