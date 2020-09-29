@@ -3,7 +3,7 @@
 <org_member> Daniel Andreev, 300168201, @andreevdan <org_member>
 
 
-Compony Name: K.Y.E.S.
-Product Name: K.Y.E.S
+Compony Name: K.E.Y.S.
+Product Name: K.E.Y.S
 
 
