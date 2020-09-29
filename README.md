@@ -5,5 +5,17 @@
 
 Compony Name: K.E.Y.S.
 Product Name: K.E.Y.S
+KEYS
+======
 
+Team Name: Keys
+
+Team Member Names:
+ Daniel Andreev- Student Number 300168201
+Maryan Khail - Student Number 30019328
+
+
+Product Name: Keys
+Description:
+Keys is a virtual inventory. This app allows to store your objects on a watch.
 
