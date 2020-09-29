@@ -13,7 +13,7 @@ Team Name: Keys
 Team Member Names:
  Daniel Andreev- Student Number 300168201
 Maryan Khail - Student Number 30019328
-
+Jean-Gabriel de Montigny - Student Number 300164831
 
 Product Name: Keys
 Description:
