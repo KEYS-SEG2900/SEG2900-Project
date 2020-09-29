@@ -17,6 +17,7 @@ Daniel Andreev- Student Number 300168201
 Maryan Khail - Student Number 30019328
 Jean-Gabriel de Montigny - Student Number 300164831
 Svetlana Esina - Student Number 300176419
+Jayden Bergevin - Student Number 300173747
 
 Product Name: Keys
 Description:
