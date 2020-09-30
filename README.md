@@ -24,7 +24,7 @@ How it works:
 - Basically like a virtual inventory where you can store items without taking up any space
 - It has a volume limit, no weight limit
 - No living things are allowed (Plants, animals, humans...)
-- No stacking watches (You cant fill a watch with stuff and then put it in another watch)
+- No stacking watches (You can't fill a watch with stuff and then put it in another watch)
 - Items placed inside the watch are frozen in time, their attributes are always the same (put hot soup in, 2 hours later it will still be hot)
 
 Multiple versions:
