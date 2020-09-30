@@ -9,7 +9,7 @@ Daniel Andreev- Student Number 300168201 <br />
 Maryan Khail - Student Number 30019328 <br />
 Jean-Gabriel de Montigny - Student Number 300164831 <br />
 Svetlana Esina - Student Number 300176419 <br />
-Jayden Bergevin - Student Number 300173747 <br />
+Jayden Bergevin - Student Number 300173747 <br Jayden Bergevin />
 Jacob Pilon - Student Number 300165690 <br />
 
 Product Name: K.E.Y.S
