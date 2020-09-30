@@ -38,5 +38,5 @@ How it works
 Multiple versions
 - 1.0 The base model, about the same amount of space as a shoe box
 - 2.0 Upgraded version of the base model, Same amount of space as normal backpack
-- 3.0 Same amount of space as a hiking backpack 
+- 3.0 Same amount of space as a hiking backpack 30-50L 
 - 4.0 Premium version of the watch, Same amount of space as a shipping contaner
