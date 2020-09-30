@@ -13,7 +13,7 @@ Maryan Khail - Student Number: 30019328 GitHub Username: maryankhalil - https://
 Jean-Gabriel de Montigny - Student Number: 300164831 - GitHub Username: JeanGabrieldeMontigny <br />
 Svetlana Esina - Student Number: 300176419 - GitHub Username: Svetlana154 - https://github.com/Svetlana154 <br />
 Jayden Bergevin - Student Number: 300173747 - GitHub Username: Jayden-uottawa <br />
-Jacob Pilon - Student Number: 300165690 - GitHub Username: Jacob-Pilon <br />
+Jacob Pilon - Student Number: 300165690 - GitHub Username: Jacob-Pilon -  https://github.com/Jacob-Pilon<br />
 
 Product Name: K.E.Y.S <br />
 Description: K.E.Y.S is a virtual storage that you can wear on your wrist.
