@@ -6,11 +6,12 @@ Team Name: Keys
 
 Organization link: [https://github.com/KEYS-SEG2900] <br />
 Repo link: [https://github.com/KEYS-SEG2900/SEG2900-Project.git]
+GitHub pages link: https://keys-seg2900.github.io/SEG2900-Project/.
 
 Team Member Names:<br />
 Daniel Andreev- Student Number: 300168201 - Github Username : andreevdan - https://github.com/andreevdan <br />
-Maryan Khail - Student Number: 30019328 GitHub Username: maryankhalil - https://github.com/maryanKhalil <br /> 
-Jean-Gabriel de Montigny - Student Number: 300164831 - https://github.com/JeanGabrieldeMontigny <br />
+Maryan Khail - Student Number: 30019328 - GitHub Username: maryankhalil - https://github.com/maryanKhalil <br /> 
+Jean-Gabriel de Montigny - Student Number: 300164831 -GitGub Username: JeanGabrieldeMontigny https://github.com/JeanGabrieldeMontigny <br />
 Svetlana Esina - Student Number: 300176419 - GitHub Username: Svetlana154 - https://github.com/Svetlana154 <br />
 Jayden Bergevin - Student Number: 300173747 - GitHub Username: Jayden-uottawa - https://github.com/Jayden-uottawa<br />
 Jacob Pilon - Student Number: 300165690 - GitHub Username: Jacob-Pilon -  https://github.com/Jacob-Pilon<br />
