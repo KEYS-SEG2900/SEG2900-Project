@@ -1,6 +1,6 @@
 # Seg-Project
 <org_name>K.E.Y.S<org_name>
-<org_member> Daniel Andreev, 300168201, @andreevdan; Jayden Bergevin, 300173747, Jayden-uottawa; Svetlana Esina, 300176419, Svetlana154; Jacob Pilon, 300165690, Jacob-Pilon;  <org_member>
+<org_member> Daniel Andreev, 300168201, @andreevdan; Jayden Bergevin, 300173747, Jayden-uottawa; Svetlana Esina, 300176419, Svetlana154 <org_member>
 
 
 Compony Name: K.E.Y.S.
@@ -12,12 +12,12 @@ KEYS
 
 Team Name: Keys
 
-Team Member Names:
-Daniel Andreev- Student Number 300168201
-Maryan Khail - Student Number 30019328
-Jean-Gabriel de Montigny - Student Number 300164831
-Svetlana Esina - Student Number 300176419
-Jacob Pilon - Student Number 300165690
+Team Member Names:<br />
+Daniel Andreev- Student Number 300168201 <br />
+Maryan Khail - Student Number 30019328 <br />
+Jean-Gabriel de Montigny - Student Number 300164831 <br />
+Svetlana Esina - Student Number 300176419 <br />
+Jayden Bergevin - Student Number 300173747 <br />
 
 Product Name: Keys
 Description:
