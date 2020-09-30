@@ -6,7 +6,7 @@ Team Name: Keys
 
 Team Member Names:<br />
 Daniel Andreev- Student Number: 300168201 <br />
-Maryan Khail - Student Number: 30019328 <br />
+Maryan Khail - Student Number: 30019328 GitHub Username: maryankhalil <br /> 
 Jean-Gabriel de Montigny - Student Number: 300164831 - GitHub Username: JeanGabrieldeMontigny <br />
 Svetlana Esina - Student Number: 300176419 - GitHub Username: Svetlana154 <br />
 Jayden Bergevin - Student Number: 300173747 - GitHub Username: Jayden-uottawa <br />
