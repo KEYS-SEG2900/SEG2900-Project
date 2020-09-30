@@ -1,6 +1,6 @@
 # Seg-Project
 <org_name>K.E.Y.S<org_name>
-<org_member> Daniel Andreev, 300168201, @andreevdan; Jayden Bergevin, 300173747, Jayden-uottawa; Svetlana Esina, 300176419, Svetlana154 <org_member>
+<org_member> Daniel Andreev, 300168201, @andreevdan; Jayden Bergevin, 300173747, Jayden-uottawa; Svetlana Esina, 300176419, Svetlana154; Jacob Pilon, 300165690, Jacob-Pilon <org_member>
 
 
 Company Name: K.E.Y.S.
@@ -18,6 +18,7 @@ Maryan Khail - Student Number 30019328 <br />
 Jean-Gabriel de Montigny - Student Number 300164831 <br />
 Svetlana Esina - Student Number 300176419 <br />
 Jayden Bergevin - Student Number 300173747 <br />
+Jacob Pilon - Student Number 300165690 <br />
 
 Product Name: Keys
 Description:
@@ -38,5 +39,5 @@ How it works
 Multiple versions
 - 1.0 The base model, about the same amount of space as a shoe box
 - 2.0 Upgraded version of the base model, Same amount of space as normal backpack
-- 3.0 Same amount of space as a hiking backpack 30-50L 
+- 3.0 Same amount of space as a hiking backpack 
 - 4.0 Premium version of the watch, Same amount of space as a shipping contaner
