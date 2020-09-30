@@ -29,6 +29,6 @@ How it works:
 
 Multiple versions:
 - v1.0 The base model, about the same amount of space as a shoe box
-- v2.0 Upgraded version of the base model, Same amount of space as normal backpack
+- v2.0 Upgraded version of the base model, same amount of space as normal backpack
 - v3.0 Same amount of space as a hiking backpack 
-- v4.0 Premium version of the watch, Same amount of space as a shipping contaner
+- v4.0 Premium version of the watch, same amount of space as a shipping contaner
