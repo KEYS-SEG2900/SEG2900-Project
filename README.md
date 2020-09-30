@@ -12,7 +12,7 @@ Daniel Andreev- Student Number: 300168201 - Github Username : andreevdan - https
 Maryan Khail - Student Number: 30019328 GitHub Username: maryankhalil - https://github.com/maryanKhalil <br /> 
 Jean-Gabriel de Montigny - Student Number: 300164831 - GitHub Username: JeanGabrieldeMontigny <br />
 Svetlana Esina - Student Number: 300176419 - GitHub Username: Svetlana154 <br />
-Jayden Bergevin - Student Number: 300173747 - GitHub Username: Jayden-uottawa <br />
+Jayden Bergevin - Student Number: 300173747 - GitHub Username: Jayden-uottawa  - https://github.com/Jayden-uottawa<br />
 Jacob Pilon - Student Number: 300165690 - GitHub Username: Jacob-Pilon <br />
 
 Product Name: K.E.Y.S <br />
