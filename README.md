@@ -5,15 +5,16 @@ KEYS
 Team Name: Keys
 
 Team Member Names:<br />
-Daniel Andreev- Student Number 300168201 <br />
-Maryan Khail - Student Number 30019328 <br />
-Jean-Gabriel de Montigny - Student Number 300164831 <br />
-Svetlana Esina - Student Number 300176419 <br />
-Jayden Bergevin - Student Number 300173747 - GitHub username Jayden-uottawa <br />
-Jacob Pilon - Student Number 300165690 - GitHub Username: Jacob-Pilon <br />
+Daniel Andreev- Student Number: 300168201 <br />
+Maryan Khail - Student Number: 30019328 <br />
+Jean-Gabriel de Montigny - Student Number: 300164831 <br />
+Svetlana Esina - Student Number: 300176419 - GitHub Username: Svetlana154 <br />
+Jayden Bergevin - Student Number: 300173747 - GitHub Username: Jayden-uottawa <br />
+Jacob Pilon - Student Number: 300165690 <br />
 
-Product Name: K.E.Y.S <br />
-Description: K.E.Y.S is a virtual storage that you can wear on your wrist.
+Product Name: K.E.Y.S
+Description:
+K.E.Y.S is a virtual storage that you can wear on your wrist.
 
 Physical description:
 - Similar to an Apple watch
@@ -27,7 +28,7 @@ How it works:
 - Items placed inside the watch are frozen in time, their attributes are always the same (put hot soup in, 2 hours later it will still be hot)
 
 Multiple versions:
-- 1.0 The base model, about the same amount of space as a shoe box
-- 2.0 Upgraded version of the base model, Same amount of space as normal backpack
-- 3.0 Same amount of space as a hiking backpack 
-- 4.0 Premium version of the watch, Same amount of space as a shipping contaner
+- v1.0 The base model, about the same amount of space as a shoe box
+- v2.0 Upgraded version of the base model, Same amount of space as normal backpack
+- v3.0 Same amount of space as a hiking backpack 
+- v4.0 Premium version of the watch, Same amount of space as a shipping contaner
