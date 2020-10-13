@@ -1,0 +1,28 @@
+Overall Look and Feel of KEYS
+===============================
+
+The overall look and feel should be modern. We will avoid 3d buttons and 3d metal looks.
+The website will have our logo on top of every page(left side). Our nav header will consist of a drop down menu. 
+
+Colours
+========
+For Keys, colours expose our modern product with very calming light blue to dark blue color scheme.
+These are our color swatches:
+
+- #91E5F6
+- #84D2F6
+- #59A5D8
+- #386FA4
+- #133C55
+
+Typography
+==========
+We will be using Poppins from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+our buttons will be flat and squared. 
