@@ -47,26 +47,79 @@
 			background-color:#386FA4;
 			color: white;
 		}
+
+		.lowernav{
+			overflow: hidden;
+			background-color: #386FA4;
+			position: relative;
+		}
+
+		.lowernav a{
+			float: left;
+			padding: 25px;
+			color: white;
+			text-decoration: none;
+			font-size: 17px;
+			width: 10%; 
+			text-align: center;
+		}
+
+		.lowernav a:hover {
+  			background-color:#133C55;
+		}
+
+		@media screen and (max-width: 500px) {
+			.lowernav a {
+				float: none;
+				display: block;
+				width: 100%;
+				text-align: left;
+			}
+		}
+
+		a:link {
+  			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+
+		
 	</style>
 </head>
 <body>
 <!-- Top Navigation Menu -->
-<div class="topnav">
-	<a href="#home" class="active">KEYS</a>
-	<!-- Navigation links (hidden by default) -->
-	<div id="myLinks">
+<header>
+	<div class="topnav">
+		<a href="#home" class="active">KEYS</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks">
+			<a href="#about">About Us</a>
+			<a href="#productDescription">Product Description</a>
+			<a href="#productfonctionality">Product Functionality</a>
+			<a href="#pricing">Pricing</a>
+			<a href="#customerservice">Customer Service</a>
+	
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<!--navigation menue under menue-->
+	<nav class = "lowernav">
 		<a href="#about">About Us</a>
 		<a href="#productDescription">Product Description</a>
 		<a href="#productfonctionality">Product Functionality</a>
 		<a href="#pricing">Pricing</a>
 		<a href="#customerservice">Customer Service</a>
+	</nav>
 
-	</div>
-	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	</a>
-</div>
+</header>
+
 <script>
 	function myFunction() {
 		var x = document.getElementById("myLinks");
@@ -84,6 +137,8 @@
 <h1>Welcome to Keys</h1>
 <p>A revolutionary product</p>
 </div>
+
+
 
 <footer class="footer font-small" style="collapse: collapse; background-color: #133C55">
 	<div class="row">
