@@ -68,7 +68,7 @@ body{
 
 		@media screen and (max-width: 500px) {
 			.lowernav a {
-				float: none;
+				float:none;
 				display: block;
 				width: 100%;
 				text-align: left;
@@ -98,5 +98,5 @@ body{
 			padding: 20px;
 			border-radius: 20px;
 		}
-
+/*  HOME PAGE *************/
 

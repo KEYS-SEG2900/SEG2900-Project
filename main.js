@@ -8,7 +8,6 @@
 		}
 	}
 
-
 	var mybutton = document.getElementById("myBtn");
 	window.onscroll = function() {scrollFunction()};
 
