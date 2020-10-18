@@ -2,90 +2,67 @@
 <html lang="en">
 <head>
 	<title>KEYS</title>
-
+     <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<style>
-		/* Style the navigation menu */
-		.topnav {
-			overflow: hidden;
-			background-color: #133C55;
-			position: relative;
-		}
-
-		/* Hide the links inside the navigation menu (except for logo/home) */
-		.topnav #myLinks {
-			display: none;
-		}
-
-		/* Style navigation menu links */
-		.topnav a {
-			color: white;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-size: 17px;
-			display: block;
-		}
-
-		/* Style the hamburger menu */
-		.topnav a.icon {
-			background: #133C55;
-			display: block;
-			position: absolute;
-			right: 0;
-			top: 0;
-		}
-
-		/* Add a grey background color on mouse-over */
-		.topnav a:hover {
-			background-color: #ddd;
-			color: #133C55;
-		}
-
-		/* Style the active link (or home/logo) */
-		.active {
-			background-color:#386FA4;
-			color: white;
-		}
-	</style>
+       <script type="text/javascript" src="main.js"></script>
 </head>
-<body>
+<body id="home-page">
 <!-- Top Navigation Menu -->
-<div class="topnav">
-	<a href="#home" class="active">KEYS</a>
-	<!-- Navigation links (hidden by default) -->
-	<div id="myLinks">
+<div class="header">
+	<div class="topnav">
+		<a href="Home%20-AboutUs.html" class="active">KEYS</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks">
+			<a href="Home%20-AboutUs.html">About Us</a>
+			<a href="Product%20Description.html">Product Description</a>
+			<a href="Product%20Fonctionality.html">Product Functionality</a>
+			<a href="Pricing.html">Pricing</a>
+			<a href="Customer%20Service.html">Customer Service</a>
+
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<!--navigation menue under menue-->
+	<nav class = "lowernav">
 		<a href="#about">About Us</a>
 		<a href="#productDescription">Product Description</a>
 		<a href="#productfonctionality">Product Functionality</a>
 		<a href="#pricing">Pricing</a>
 		<a href="#customerservice">Customer Service</a>
+	</nav>
 
-	</div>
-	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	</a>
 </div>
+
+<!--byutton back to top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">button to come back to top</button>
+
+
+<div class="col-md-4">
+	<h1>Welcome to Keys Customer Service</h1>
+	<p>A revolutionary product</p>
+</div>
+
+
+<!--Test block-->
+<div style="background-color:lightgrey;padding:100px 3000px 2500px">
+  <strong>Test Block</strong>
+</div>
+
 <script>
-	function myFunction() {
-		var x = document.getElementById("myLinks");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-	}
+	var mybutton = document.getElementById("myBtn");
+	window.onscroll = function() {scrollFunction()};
 </script>
 
 
 </body>
-<div class="col-md-4">
-<h1>Welcome to Keys</h1>
-<p>A revolutionary product</p>
-</div>
 
-<footer class="footer font-small" style="collapse: collapse; background-color: transparent">
+
+
+<footer class="footer font-small" style="collapse: collapse; background-color: #133C55">
 	<div class="row">
 		<div class=" col-md-6">
 
@@ -98,11 +75,12 @@
 					width="50px">
 			</a>
 		</div>
-		<div class="copyright col-md-6">
+		<div class="copyright col-md-6" style=" text-align: right">
 			KEYS © 2020 Copyright
 		</div>
 	</div>
 
 </footer>
 </html>
+
 
