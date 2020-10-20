@@ -1,8 +1,9 @@
 Overall Look and Feel of KEYS
 ===============================
 
-The overall look and feel should be modern. We will avoid 3d buttons and 3d metal looks.
-The website will have our logo on top of every page(left side). Our nav header will consist of a drop down menu. 
+The overall look and feel should be modern. We will avoid 3D buttons and 3D metal looks.
+The website will have our logo on top of every page on the left side (except the Home page, which has the logo centralized in the header). Our nav header will consist of a drop-down menu (left-hand side, drops: vertical column on the left-side of the website). 
+We will have sharp corners, and contrast coloring.
 
 Colours
 ========
@@ -25,4 +26,5 @@ Links will not be underlined and should change color when a user hovers over it.
 
 Buttons
 =======
-our buttons will be flat and squared. 
+Our buttons will be flat and squared. 
+Primary buttons -- back to top, menue, ...
