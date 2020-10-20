@@ -3,6 +3,7 @@ Overall Look and Feel of KEYS
 
 The overall look and feel should be modern. We will avoid 3d buttons and 3d metal looks.
 The website will have our logo on top of every page(left side). Our nav header will consist of a drop down menu. 
+We will have sharp corners, and contrast coloring.
 
 Colours
 ========
