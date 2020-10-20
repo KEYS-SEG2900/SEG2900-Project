@@ -25,4 +25,5 @@ Links will not be underlined and should change color when a user hovers over it.
 
 Buttons
 =======
-our buttons will be flat and squared. 
+Our buttons will be flat and squared. 
+Primary buttons -- back to top, menue, ...
