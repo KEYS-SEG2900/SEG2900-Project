@@ -25,10 +25,10 @@
 	}
 
     function hover(word){
-        word.setAttribute('src', 'Img/lockedP2.png')
+        word.setAttribute('src', '../Img/lockedP2.png')
     }
     
     function unhover(word){
-        word.setAttribute('src', 'Img/locked3.png')
+        word.setAttribute('src', '../Img/locked3.png')
     }
     
