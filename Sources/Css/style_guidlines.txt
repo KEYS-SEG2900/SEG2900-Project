@@ -9,7 +9,7 @@ Colours
 ========
 We chose the colours that would paint our modern product in very calming light. Our product is aimed towards convenience, so instead of emphasizing the chaotic high-tech nature of it, we took a more relaxed approach - relaying to the audience how much less stressful and less busy life will be with our product.
 
-In order to complete that atmoshere, the light blue to dark blue color scheme was decided upon. It includes colours such as the ones listed below:
+In order to complete that atmoshere, we decided to use the light blue to dark blue colour scheme. It includes colours such as the ones listed below:
 
 - #91E5F6
 - #84D2F6
@@ -17,17 +17,26 @@ In order to complete that atmoshere, the light blue to dark blue color scheme wa
 - #386FA4
 - #133C55
 
-The use of whites and blacks (along with their variations in opacity) will also contribute the professional look of the website, contrasting well with the blues.
+The use of whites and blacks (along with their variations in opacity) will also be used to contribute the professional look of the website, contrasting well with the blues.
 
 Typography
 ==========
-We will be using Poppins and Antic slab from Google Fonts.
+We will be using Poppins and Antic slab from Google Fonts. Important texts will either have a border or experience a slight style change (through the use of underlines, weight variety and italics).
 
 Links
 =====
-Links will not be underlined and should change color when a user hovers over it.
+Links will not be underlined and should change fill colour (not font, but the background fill colour) when a user hovers over one.
 
 Buttons
 =======
 Our buttons will be flat and squared. 
-Primary buttons -- back to top, menue, ...
+Primary buttons -- back to top, navigation bar, ...
+
+Basic Layout Features
+=====================
+Every page will have:
+- header (logo, navigation bar - links to other pages)
+- footer (links to social media, copyright)
+- fixed button (to get back to top)
+- sections (mostly keeping them horizontal - 100% width; tables for comparisons, etc.)
+
