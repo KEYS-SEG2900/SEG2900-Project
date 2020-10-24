@@ -48,14 +48,30 @@ body{
 
 /* Style the active link (or home/logo) */
 .active {
-	background-color:#386FA4;
-	color: white;
+	background-image:url("../Img/KEYS_logo_shadow2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	margin-left: 10px;
+	width:20px;
+	padding:60px;
+	padding-top: 5px;
+	position:fixed;
+	z-index: 999;
+	opacity: 70%;
+	display: inline-block;
+}
+
+.active:hover{
+	opacity: 90%;
 }
 
 .lowernav{
+	z-index: 99;
 	overflow: hidden;
-	background-color: #0000009e;
-	position: relative;
+	background-color: #000000b9;
+	position: fixed;
+	width:100%;
 }
 
 .lowernav img{
@@ -76,7 +92,7 @@ body{
 
 .lowernav a:hover {
 	background-color:#133C55;
-		color: white;
+	color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -112,7 +128,7 @@ a:hover {
 	border-radius: 20px;
 }
 
-/* BIG BACKGROUND PIC BEHIND TITLE */
+/* BIG BACKGROUND PIC BEHIND TITLE - HOME PAGE ONLY*/
 .head_pic{
 	max-width: 100%;
 	height: 100%;
@@ -314,3 +330,31 @@ a:hover {
 		background-size: cover;
 		background-blend-mode: multiply;
 	}
+
+/*Head pic - OTHER PAGES*/
+.side_pic{
+	max-width: 100%;
+	background-image: url("../Img/blue_circle15.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	padding-bottom: 70px;
+	text-align: left;
+	position: relative;
+}
+
+.side_pic #title{
+	margin-top: 120px;
+	margin-left: 80px;
+	font-size: 32pt;
+	color: white;
+	letter-spacing: 4px;
+	display: inline-block;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.smaller_title{
+	font-size: 28pt;
+	display: inline-block;
+}

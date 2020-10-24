@@ -23,12 +23,10 @@
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
 	}
-
     function hover(word){
         word.setAttribute('src', '../Img/lockedP2.png')
     }
     
     function unhover(word){
         word.setAttribute('src', '../Img/locked3.png')
-    }
-    
+	}
