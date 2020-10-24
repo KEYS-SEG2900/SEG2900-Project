@@ -63,7 +63,13 @@ body{
 }
 
 .active:hover{
+	animation: fadein ease-in 50ms;
 	opacity: 90%;
+}
+
+@keyframes fadein{
+	0%{opacity: 70%}
+	100% {opacity: 90%}	
 }
 
 .lowernav{
@@ -117,7 +123,7 @@ a:hover {
 	position: fixed;
 	bottom: 25px;
 	right: 25px;
-	z-index: 99;
+	z-index: 9999;
 	font-size: 20px;
 	border: none;
 	outline: none;
