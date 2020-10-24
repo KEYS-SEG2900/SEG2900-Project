@@ -45,3 +45,31 @@ function keep_unlock(){
 	class_lock.src="../Img/locked3.png";
 }*/
 
+
+//add-show
+var slideIndex = 1;
+slide(slideIndex);
+
+function slide_mover(n) {
+  slide(slideIndex += n);
+}
+
+function slide_num(n) {
+  slide(slideIndex = n);
+}
+
+function slide(n) {
+  var i;
+  var slides = document.getElementsByClassName("next_slide");
+  var dots = document.getElementsByClassName("order");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
