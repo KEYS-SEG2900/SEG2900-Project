@@ -30,7 +30,7 @@ Links will not change color once pressed/used.
 
 Buttons
 =======
-Our buttons will be flat and squared. 
+Our buttons will be flat and squared, Exception: Buy-Buttons will have raduis. 
 Primary buttons -- back to top, navigation bar, next/before,...
 
 Basic Layout Features

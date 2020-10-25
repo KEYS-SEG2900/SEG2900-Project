@@ -245,9 +245,8 @@ a:hover {
 	  list-style:none;
 	}
 
-	.social-ls ul {
+	.social-icons ul {
 		position: fixed;
-		direction: rtl;
 		float: right;
 		
 	}
@@ -325,6 +324,77 @@ a:hover {
 			font-weight:600
 		}
 	}
+
+/* Table one Pricing */
+
+.has-it{
+	fill: white;
+	color: white;
+}
+
+.has-it:hover{
+	fill: green;
+	color: green;
+}
+
+.does-not-it{
+	/*fill: #595c5e !important;*/
+	color: #595c5e;
+}
+.does-not-it path{
+	fill: #595c5e !important;
+}
+
+.does-not-it:hover{
+	fill: red;
+	color: red;
+}
+
+.table_text {
+	text-align: left;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table[align="center"] {
+    margin: 0 auto;
+}
+
+button.buy_buttons_2{
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #3139a3;
+	border: none;
+	border-radius: 25px;
+}
+
+button.buy_buttons{
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color: None;
+	border: 10px solid #3139a3;
+	border: none;
+	border-radius: 25px;
+}
+
+button.buy_buttons:hover{
+	background-color: #3139a3;
+	color:white;
+}
 
 /*  HOME PAGE *************/
 
