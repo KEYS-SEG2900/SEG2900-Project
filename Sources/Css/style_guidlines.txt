@@ -26,11 +26,12 @@ We will be using Poppins and Antic slab from Google Fonts. Important texts will 
 Links
 =====
 Links will not be underlined and should change fill colour (not font, but the background fill colour) when a user hovers over one.
+Links will not change color once pressed/used.
 
 Buttons
 =======
 Our buttons will be flat and squared. 
-Primary buttons -- back to top, navigation bar, ...
+Primary buttons -- back to top, navigation bar, next/before,...
 
 Basic Layout Features
 =====================
@@ -39,4 +40,6 @@ Every page will have:
 - footer (links to social media, copyright)
 - fixed button (to get back to top)
 - sections (mostly keeping them horizontal - 100% width; tables for comparisons, etc.)
+- one slide show
+- compareson table
 

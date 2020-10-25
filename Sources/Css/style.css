@@ -242,9 +242,15 @@ a:hover {
 	.social-icons{
 	  padding-left:0;
 	  margin-bottom:0;
-	  list-style:none
+	  list-style:none;
 	}
 
+	.social-ls ul {
+		position: fixed;
+		direction: rtl;
+		float: right;
+		
+	}
 
 	.social-icons li{
 		display:inline-block;
