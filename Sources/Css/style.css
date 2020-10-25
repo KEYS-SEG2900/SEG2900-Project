@@ -340,6 +340,7 @@ a:hover {
 .does-not-it{
 	/*fill: #595c5e !important;*/
 	color: #595c5e;
+	text-decoration: line-through;
 }
 .does-not-it path{
 	fill: #595c5e !important;
@@ -348,6 +349,7 @@ a:hover {
 .does-not-it:hover{
 	fill: red;
 	color: red;
+	text-decoration: line-through;
 }
 
 .table_text {
@@ -357,6 +359,9 @@ a:hover {
 table, th, td {
 	border-collapse: collapse;
 	padding: 5px;
+}
+table {
+	border-spacing: 15px;
 }
 
 table[align="center"] {
@@ -394,6 +399,28 @@ button.buy_buttons{
 button.buy_buttons:hover{
 	background-color: #3139a3;
 	color:white;
+}
+
+
+
+/* Table 2 */
+
+.s_table{
+	margin: 0 auto;
+	padding: 50px 0 0;
+	max-width: 960px;
+	width: 100%;
+}
+
+.mod-img{
+	margin-bottom: 25px;
+  	max-width: 100%;
+}
+
+.text2{
+	color: #888;
+  	font-weight: 600;
+  	letter-spacing: 1px;
 }
 
 /*  HOME PAGE *************/
