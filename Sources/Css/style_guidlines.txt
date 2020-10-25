@@ -3,7 +3,7 @@ Overall Look and Feel of KEYS
 
 The overall look and feel should be modern. We will avoid 3D buttons and 3D metal looks.
 The website will have our logo on top of every page on the left side. Our nav header will consist of a drop-down menu (left-hand side icon, drops: vertical column on the left-side of the website). 
-We will have sharp corners, and contrast coloring in order to draw attention of the website visitors.
+We will have sharp corners and contrast coloring in order to draw attention of the website visitors.
 
 Colours
 ========
@@ -18,6 +18,10 @@ In order to complete that atmoshere, we decided to use the light blue to dark bl
 - #133C55
 
 The use of whites and blacks (along with their variations in opacity) will also be used to contribute the professional look of the website, contrasting well with the blues.
+
+Iconography
+===========
+Icons should be a basic colour (white or black - could change colour with hover) and they will appear flat (not 3D), in order to keep to the overall feel and look of the website.
 
 Typography
 ==========
