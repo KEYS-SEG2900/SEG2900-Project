@@ -410,6 +410,17 @@ button.buy_buttons:hover{
 	padding: 50px 0 0;
 	max-width: 960px;
 	width: 100%;
+	
+}
+
+.tb_two{
+	background-color: rgba(235, 238, 240, 0.932);
+	border-radius: 10px;
+	padding: 15px 25px;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+	
 }
 
 .mod-img{
@@ -418,10 +429,48 @@ button.buy_buttons:hover{
 }
 
 .text2{
-	color: #888;
+	color: rgb(73, 54, 240);
   	font-weight: 600;
   	letter-spacing: 1px;
 }
+
+.insid2_tab_2{
+	color: #016FF9;
+  	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 50px 0 25px;
+	list-style: None;
+}
+
+.items{
+	border-top: 1px solid #e1f1ff;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 15px 0;
+}
+
+.text_in_table{
+	color: #016FF9;
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.Sigh_up_button{
+	border: 1px solid #3e24d4;
+	border-radius: 10px;
+	color: #348EFE;
+	display: inline-block;
+	margin: 25px 0;
+	padding: 15px 35px;
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+  background-color: #0685f5;
+}
+
 
 /*  HOME PAGE *************/
 
