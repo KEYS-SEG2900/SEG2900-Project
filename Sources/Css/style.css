@@ -235,6 +235,10 @@ a:hover {
 		opacity:0.5
 	}
 
+	.footer a{
+		color: white;
+	}
+
 	.footer hr.small{
 		margin:20px 0
 	}
@@ -471,7 +475,10 @@ button.buy_buttons:hover{
   background-color: #0685f5;
 }
 
-
+a:visited {
+	text-decoration: none;
+  }
+  
 /*  HOME PAGE *************/
 
 /* PRICING SECTION ************/
