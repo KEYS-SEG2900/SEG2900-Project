@@ -1,162 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>KEYS Product Description</title>
-
+		<title>Keys Pricing</title>
 		<link rel="shortcut icon" type="image/png" href="../Img/icon_top2.png"/>
 		<link rel="stylesheet" href="../Css/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="../Javascript/main.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<!-- Top Navigation Menu -->
-		<!-- Top Navigation Menu -->
-		<div class="side_pic" id="bgpic_cs"> <!--CHANGE BACKGROUND PIC FOR THIS PAGE using the id in style.css-->
-			<div class="header">
-				<div class="topnav">
-					<!-- Navigation links (hidden by default) -->
-					<div id="myLinks">
-						<a href="Home%20-AboutUs.html">About Us</a>
-						<a href="Product%20Description.html">What Is It</a>
-						<a href="Product%20Fonctionality.html">How It Works</a>
-						<a href="Pricing.html">Pricing</a>
-						<a href="Customer%20Service.html">Customer Service</a>
-				
-					</div>
-					<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-						<i class="fa fa-bars"></i>
-					</a>
+	<!-- Top Navigation Menu -->
+	<div class="side_pic" id="bgpic_cs"> <!--CHANGE BACKGROUND PIC FOR THIS PAGE using the id in style.css-->
+		<div class="header">
+			<div class="topnav">
+				<!-- Navigation links (hidden by default) -->
+				<div id="myLinks">
+					<a href="Home%20-AboutUs.html">About Us</a>
+					<a href="Product%20Description.html">What Is It</a>
+					<a href="Product%20Fonctionality.html">How It Works</a>
+					<a href="Pricing.html">Pricing</a>
+					<a href="Customer%20Service.html">Customer Service</a>
+			
 				</div>
+				<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 
-				<a href="Home.html" class="active"></a>
+			<a href="Home.html" class="active"></a>
 
-				<!--navigation menu under menu-->
-				<nav class = "lowernav">
-					<a href="Customer%20Service.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />Contact Us</a>
-					<a href="Pricing.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />Buy Now</a>
-					<a href="Product%20Functionality.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />How It Works</a>
-					<a href="Product%20Description.html"><img src="../Img/locked3.png"class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />What Is It</a>
-					<a href="About_Us.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);"/>About Us</a>
-				</nav>
+			<!--navigation menu under menu-->
+			<nav class = "lowernav">
+				<a href="Customer%20Service.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />Contact Us</a>
+				<a href="Pricing.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />Buy Now</a>
+				<a href="Product%20Functionality.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />How It Works</a>
+				<a href="Product%20Description.html"><img src="../Img/locked3.png"class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);" />What Is It</a>
+				<a href="About_Us.html"><img src="../Img/locked3.png" class="lock_icon" onmouseover="hover(this);" onmouseout="unhover(this);"/>About Us</a>
+			</nav>
+
+		</div>
+		<div id="title">B<div class="smaller_title">UY</div> N<div class="smaller_title">OW</div></div>
+	</div>
+
+		<!--Slide adds-->
+		<div class="add-show">
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide1.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide2.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide3.PNG" style="width:100%">
+			</div>
+
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide4.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide5.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide6.PNG" style="width:100%">
 
 			</div>
-			<div id="title">W<div class="smaller_title">HAT</div> I<div class="smaller_title">S</div> I<div class="smaller_title">T</div></div>
+
+			<a class="prev" onclick="slide_mover(-1)">&#10094;</a>
+			<a class="next" onclick="slide_mover(1)">&#10095;</a>
+		</div>
+
+		<br><br>
+
+		<div style="text-align:center">
+			<span class="order" onclick="slide_num(1)"></span> 
+			<span class="order" onclick="slide_num(2)"></span> 
+			<span class="order" onclick="slide_num(3)"></span>
+			<span class="order" onclick="slide_num(4)"></span> 
+			<span class="order" onclick="slide_num(5)"></span> 
+			<span class="order" onclick="slide_num(6)"></span>
 		</div>
 
 
 
-	<!--Slide adds-->
-	<div class="add-show">
-		<div class="next_slide">
-			<img src="../Img/Adds/PPT_SEG_PIC/Slide1.PNG" style="width:100%">
-		  </div>
-		  
-		  <div class="next_slide">
-			<img src="../Img/Adds/PPT_SEG_PIC/Slide2.PNG" style="width:100%">
-		  </div>
-		  
-		  <div class="next_slide">
-			<img src="../Img/Adds/PPT_SEG_PIC/Slide3.PNG" style="width:100%">
-		  </div>
-
-		  <div class="next_slide">
-			<img src="../Img/Adds/PPT_SEG_PIC/Slide4.PNG" style="width:100%">
-		  </div>
-		  
-		  <div class="next_slide">
-			<img src="../Img/Adds/PPT_SEG_PIC/Slide5.PNG" style="width:100%">
-		  </div>
-		  
-		  <div class="next_slide">
-			<img src="../Img/Adds/PPT_SEG_PIC/Slide6.PNG" style="width:100%">
-
-		  </div>
-
-		  <a class="prev" onclick="slide_mover(-1)">&#10094;</a>
-		  <a class="next" onclick="slide_mover(1)">&#10095;</a>
-	</div>
-
-	<br><br>
-
-	<div style="text-align:center">
-		<span class="order" onclick="slide_num(1)"></span> 
-		<span class="order" onclick="slide_num(2)"></span> 
-		<span class="order" onclick="slide_num(3)"></span>
-		<span class="order" onclick="slide_num(4)"></span> 
-		<span class="order" onclick="slide_num(5)"></span> 
-		<span class="order" onclick="slide_num(6)"></span>
-	</div>
+		<!--button back to top-->
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../Img/Adds/Icons_table/Arrow_up.svg" width="50 px" height="50 px"></button>
 
 
-	<!--byutton back to top-->
-	<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../Img/Adds/Icons_table/Arrow_up.svg" width="50 px" height="50 px"></button>
+		<div class="col-md-4">
+			<h1>Welcome to Keys Pricing</h1>
+			<p>A revolutionary product</p>
 
-
-	<div class="col-md-4">
-		<h1>Welcome to Keys Product Description</h1>
-		<p>A revolutionary product</p>
-	</div>
-
-
-	<!--Test block-->
-	<div style="background-color:lightgrey;padding:100px 3000px 2500px">
-	<strong>Test Block</strong>
-	</div>
-
-	<script>
-		var mybutton = document.getElementById("myBtn");
-		window.onscroll = function() {scrollFunction()};
-	</script>
-
-	<!-- Footer -->
-	<footer class="footer">
-		<hr>
-		<div>
-			<p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-				<a href="About_Us.html">K.E.Y.S.</a>.</p>
 		</div>
 
-		<div>
-			<ul class= "social-icons" style="float: right;"> 
-				<li><a class="facebook" href="https://www.facebook.com/"><img src="../Img/facebook_logo_W.png"height="35px" width="35px"><span class="label" alt="Facebook"></span></a></li>
-				<li><a class="instagram" href="https://www.instagram.com/"><img src="../Img/instagram_logo_W.png"height="35px" width="35px"><span class="label" alt="Instagram"></span></a></li>
-				<li><a class="twitter" href="https://www.twitter.com/"><img src="../Img/twitter_logo_W.png" height="35px" width="35px"><span class="label" alt="Twitter"></span></a></li>
-				<li><a class="youtube"  href="https://www.youtube.com/"><img src="../Img/youtube_logo_W.png" height="35px" width="35px"><span class="label" alt="Youtube"></span></a></li>
-				<li><a class="linkedin"  href="https://www.linkedin.com/"><img src="../Img/linkedin_logo_W.png" height="35px" width="35px"><span class="label" alt="LinkedIn"></span></a></li>
-			</ul>
+		<div class="pricing-section">
+			<div class="container-pricing">
+
+					<section class="model1">
+						<h1>Model1</h1>
+					<p>Affordable model</p>
+					</section>
+
+					<section class="model2">
+						<h1>Model2</h1>
+					<p>Base model</p>
+					</section>
+
+					<section class="model3">
+						<h1>Model3</h1>
+					<p>High end model</p>
+					</section>
+
+					<section class="model4">
+						<h1>Model4</h1>
+					<p>Premium model</p>
+					</section>
+
+
+			</div>
 		</div>
-	</footer>
 
-	<script>
-		//add-show
-		var slideIndex = 1;
-		slide(slideIndex);
+		<!--Table price one models-->
+		<div class="table_one">
+			<table class="tb_one" style="margin-left:auto; margin-right:auto;">
+				<tr>
+					<th>
+						<p>Affordble Model</p>
+						<br>
+						<img src="../Img/Adds/Icons_table/Afford.svg" alt = "" height="50 px" width="50px">
+						<br>
+						<h2> $ ##.## </h2>
+						<button class="buy_buttons">Join The Family!</button>
+					</th>
 
-		function slide_mover(n) {
-		slide(slideIndex += n);
-		}
+					<th>
+						<p>Base Model</p>
+						<br>
+						<img src="../Img/Adds/Icons_table/Shapes.svg" alt = "" height="50 px" width="50px">
+						<br>
+						<h2>$ ##.##</h2>
+						<button class="buy_buttons_2">Join The Family!</button>
+					</th>
 
-		function slide_num(n) {
-		slide(slideIndex = n);
-		}
+					<th>
+						<p>Luxury Model</p>
+						<br>
+						<img src="../Img/Adds/Icons_table/Luxury_car.svg" alt = "" height="50 px" width="50px">
+						<br>
+						<h2>$ ##.##</h2>
+						<button class="buy_buttons">Join The Family!</button>
+					</th>
 
-		function slide(n) {
-		var i;
-		var slides = document.getElementsByClassName("next_slide");
-		var dots = document.getElementsByClassName("order");
-		if (n > slides.length) {slideIndex = 1}    
-		if (n < 1) {slideIndex = slides.length}
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";  
-		}
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-		}
-		slides[slideIndex-1].style.display = "block";  
-		dots[slideIndex-1].className += " active";
-		}
-	</script>
+					<th>
+						<p>Premium /VIP Model</p>
+						<br>
+						<img src="../Img/Adds/Icons_table/Gold.svg" alt = "" height="50 px" width="50px">
+						<br>
+						<h2>$ ##.##</h2>
+						<button class="buy_buttons">Join The Family!</button>
+					</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Drop box.svg" height="15 px" width="15px"> # Liters Storage</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Drop box.svg" height="15 px" width="15px"> # Liters Storage</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Drop box.svg" height="15 px" width="15px"> # Liters Storage</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Drop box.svg" height="15 px" width="15px"> # Liters Storage</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Key.svg" height="15 px" width="15px"> Password-Protected</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Key.svg" height="15 px" width="15px"> Password-Protected</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Key.svg" height="15 px" width="15px"> Password-Protected</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Key.svg" height="15 px" width="15px"> Password-Protected</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> # Years of Insurance</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> # Years of Insurance</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> # Years of Insurance</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> # Years of Insurance</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> # Hours of  Battery Life</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> # Hours of  Battery Life</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> # Hours of  Battery Life</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> # Hours of  Battery Life</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> Extrnal charging</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> External charging</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> External charging</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> External charging</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> # Users</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> # Users</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> # Users</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> # Users</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilities</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilities</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilitiesy</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilities</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table//Hazard_flame.svg" height="15 px" width="15px"> Hazard Protection</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Hazard_flame.svg" height="15 px" width="15px"> Hazard Protection</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Hazard_flame.svg" height="15 px" width="15px"> Hazard Protection</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Hazard_flame.svg" height="15 px" width="15px"> Hazard Protection</th>
+				</tr>
+
+				<tr class="table_text">
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px"> #########</th>
+					<th class="has-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px"> #########</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px"> ###########</th>
+					<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px"> ##########</th>
+				</tr>
+
+			</table>
+		</div>
+
+		<br><br><br>
+
+		<div class="S_table">
+			<table class="tb_two" style="margin-left:auto; margin-right:auto;">
+				<th class="row_two">
+					<div class="circle"></div>
+						<img src="../Img/Adds/Icons_table/Pumkin.svg" alt="" class="mod_img" height="65 px" width="65 px">
+					</div>
+					<h2 class="text2">Pumkin Spice</h2>
+					<ul class="insid2_tab_2">
+						<li class="items">######</li>
+						<li class="items">######</li>
+					</ul>
+					<p class="text_in_table"> $ ##.##</p>
+					<button class="Sigh_up_button">Buy Now!</button>
+				</th>
+
+				<th class="row_two">
+					<img src="../Img/Adds/Icons_table/Ch_tree.svg" alt="" class="mod-img" height="65 px" width="65 px">
+					<h2 class="text2">Santa's Time</h2>
+					<ul class="insid2_tab_2">
+						<li class="items">######</li>
+						<li class="items">######</li>
+					</ul>
+					<p class="text_in_table">$ ##.##</p>
+					<button class="Sigh_up_button">Buy Now!</button>
+				</th>
+
+				<th class="row_two">
+					<img src="../Img/Adds/Icons_table/Heart.svg" alt="" class="mod-img" height="65 px" width="65 px">
+					<h2 class="text2">Cupids Arrow</h2>
+					<ul class="insid2_tab_2">
+						<li class="items">######</li>
+						<li class="items">######</li>
+					</ul>
+					<p class="text_in_table">$ ##.##</p>
+					<button class="Sigh_up_button">Buy Now!</button>
+				</th>
+			</table>
+		</div>
+
+
+		<script>
+			var mybutton = document.getElementById("myBtn");
+			window.onscroll = function() {scrollFunction()};
+		</script>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<hr>
+			<div>
+				<p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+					<a href="About_Us.html">K.E.Y.S.</a>.</p>
+			</div>
+
+			<div>
+                <ul class= "social-icons" style="float: right;">  
+					<li><a class="facebook" href="https://www.facebook.com/"><img src="../Img/facebook_logo_W.png"height="35px" width="35px"><span class="label" alt="Facebook"></span></a></li>
+					<li><a class="instagram" href="https://www.instagram.com/"><img src="../Img/instagram_logo_W.png"height="35px" width="35px"><span class="label" alt="Instagram"></span></a></li>
+					<li><a class="twitter" href="https://www.twitter.com/"><img src="../Img/twitter_logo_W.png" height="35px" width="35px"><span class="label" alt="Twitter"></span></a></li>
+					<li><a class="youtube"  href="https://www.youtube.com/"><img src="../Img/youtube_logo_W.png" height="35px" width="35px"><span class="label" alt="Youtube"></span></a></li>
+					<li><a class="linkedin"  href="https://www.linkedin.com/"><img src="../Img/linkedin_logo_W.png" height="35px" width="35px"><span class="label" alt="LinkedIn"></span></a></li>
+				</ul>
+            </div>
+    	</footer>
+
+		<script>
+			//add-show
+			var slideIndex = 1;
+			slide(slideIndex);
+	
+			function slide_mover(n) {
+			slide(slideIndex += n);
+			}
+	
+			function slide_num(n) {
+			slide(slideIndex = n);
+			}
+	
+			function slide(n) {
+			var i;
+			var slides = document.getElementsByClassName("next_slide");
+			var dots = document.getElementsByClassName("order");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			}
+		</script>
 	</body>
 </html>
 
