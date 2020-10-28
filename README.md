@@ -40,4 +40,3 @@ Multiple versions:
 - v2.0 Upgraded version of the base model, Same amount of space as normal backpack
 - v3.0 Same amount of space as a hiking backpack 
 - v4.0 Premium version of the watch, Same amount of space as a shipping contaner
->>>>>>> efb026c3dacab372f463cd1dec3651d3c17c9c4b
