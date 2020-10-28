@@ -600,3 +600,26 @@ a:visited {
 	float: right;
 }
 
+
+/*Buy now tables */
+.product {
+	padding:1em; 
+	border:1px solid #E0E4CC; 
+	margin-right:1em; 
+	border-radius:5px;
+}
+
+.product_list {
+	display: flex; 
+}
+
+.table_catable_cart_adding {
+	max-width: 800px; 
+	margin: 1em auto; 
+	background:rgb(64, 96, 235); 
+	padding:30px;
+	border-radius:5px;
+	float:right;
+	text-align: center;
+}
+
