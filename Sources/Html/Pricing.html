@@ -168,7 +168,101 @@
 		
 
 		<script>
+			function_cart();
+			document.getElementById("emptycart").addEventListener("click", emptyCart);
+			var btns = document.getElementsByClassName('cart_add');
+			for (var i = 0; i < btns.length; i++) {
+				btns[i].addEventListener('click', function() {cart_add(this);});
+			}
 
+			function cart_add(elem) {
+				var empthy_ls_test = [];
+				var price_setter;
+				var gettit_h3;
+				var cart = [];
+				var cart_str;
+				while(elem = elem.previousSibling) {
+					if (elem.nodeType === 3) continue;
+					if(elem.className == "price"){
+						price_setter = elem.innerText;
+					}
+					if (elem.className == "tit_h3") {
+						gettit_h3 = elem.innerText;
+					}
+					empthy_ls_test.push(elem);
+				}
+
+				var product = {
+					tit_h3 : gettit_h3,
+					price : price_setter
+				};
+				var stringProduct = JSON.stringify(product);
+
+				
+				if(!sessionStorage.getItem('cart')){
+					cart.push(stringProduct);
+					cart_str = JSON.stringify(cart);
+					sessionStorage.setItem('cart', cart_str);
+					addedToCart(gettit_h3);
+					function_cart();
+				}
+				else {
+					cart = JSON.parse(sessionStorage.getItem('cart'));
+					cart.push(stringProduct);
+					cart_str = JSON.stringify(cart);
+					sessionStorage.setItem('cart', cart_str);
+					addedToCart(gettit_h3);
+					function_cart();
+				}
+			}
+
+
+			function function_cart(){
+				var total = 0;
+				var price = 0;
+				var items = 0;
+				var tit_h3 = "";
+				var next_car = "";
+				if(sessionStorage.getItem('cart')) {
+					var cart = JSON.parse(sessionStorage.getItem('cart'));
+					items = cart.length;
+					for (var i = 0; i < items; i++){
+						var x = JSON.parse(cart[i]);
+						price = parseFloat(x.price.split('$')[1]);
+						tit_h3 = x.tit_h3;
+						next_car += "<tr><td>" + tit_h3 + "</td><td>$" + price.toFixed(2) + "</td></tr>";
+						total += price;
+					}
+					
+				}
+
+				document.getElementById("total").innerHTML = total.toFixed(2);
+				document.getElementById("next_car").innerHTML = next_car;
+				document.getElementById("number").innerHTML = items;
+			}
+
+
+			function addedToCart(pname) {
+				var message = pname + " was added to the cart";
+				var alerts = document.getElementById("alerts");
+				alerts.innerHTML = message;
+				if(!alerts.classList.contains("message")){
+					alerts.classList.add("message");
+				}
+			}
+
+
+			function emptyCart() {
+				if(sessionStorage.getItem('cart')){
+					sessionStorage.removeItem('cart');
+					function_cart();
+				var alerts = document.getElementById("alerts");
+				alerts.innerHTML = "";
+				if(alerts.classList.contains("message")){
+					alerts.classList.remove("message");
+				}
+				}
+			}
 		</script>
 	</body>
 </html>
