@@ -663,5 +663,6 @@ input[type=text] {
 
 .tab_buy{
 	margin-left: auto;
-  	margin-right: auto;
+	  margin-right: auto;
+	  padding-left: 50px1;
 }
