@@ -44,29 +44,60 @@
         .pad {
             padding: 50 px;
         }
+
+        #back{
+            float: right;
+            border:1px solid #ff7c1e; 
+            color:#fff; 
+            background: #fd8c36; 
+            padding:0.6em 1em;
+            font-size:1em; 
+            line-height:1; 
+            border-radius: 1.2em;
+        }
+
+        button:hover, button:focus, button:active {
+            background: #A7DBD8;
+            border-color:#0c87ec;
+            color:#000;
+            cursor: pointer;
+        }
 	</style>
 </head>
 
 
 
-
-<div class="main-content">
-    <div class="left-hole"></div>
-    <div class="right-hole"></div>
-    <img href="../Img/icon_top2.png" width="50px" height="50px" style="position: right;">
-    <h1>Success! Thank you for placing your order!</h1>
-    <p>Your odred has now been placed and will arive within the next 15 busness days. Please check the recipte in your email.</p>
-    <p class="strong">We are very happy you have jopined our fanmily, and are ready for the brighter future.</p>
-
-    <div class="pad">
-        <h3>Next steps & what to expect:</h3>
-        <ul>
-            <li> 15-bussnes day dilevery.</li>
-            <li>Sopeciasl bounuss gift in the poackage. </li>
-            <li>More exciting news in our Newslatter.</li>
-        </ul>
-    </div>
+<body>
+    <div class="main-content">
+        <div class="left-hole"></div>
+        <div class="right-hole"></div>
+        <img href="../Img/icon_top2.png" width="50px" height="50px" style="position: right;">
+        <h1>Success! Thank you for placing your order!</h1>
+        <p>Your odred has now been placed and will arive within the next 15 busness days. Please check the recipte in your email.</p>
+        <p class="strong">We are very happy you have jopined our fanmily, and are ready for the brighter future.</p>
     
-</div>
+        <div class="pad">
+            <h3>Next steps & what to expect:</h3>
+            <ul>
+                <li> 15-bussnes day dilevery.</li>
+                <li>Sopeciasl bounuss gift in the poackage. </li>
+                <li>More exciting news in our Newslatter.</li>
+            </ul>
+        </div>
+        
+    
+        <button id="back" onclick="back()">Return To home</button>
+    </div>
+
+    
+    <script>
+        function back(){
+            var final = confirm("Please confirm you have read this information!\n You will not be able to return\nThank You!");
+            if (final){
+                location.replace("Home.html")
+            }
+		}
+    </script>
+</body>
 
 
