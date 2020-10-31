@@ -88,7 +88,7 @@
 
 
 		<!--button back to top-->
-		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../Img/Adds/Icons_table/Arrow_up.svg" width="50 px" height="50 px"></button>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../Img/Adds/Icons_table/Arrow_up.svg" width="25 px" height="25 px"></button>
 
 
 		<div class="col-md-4">
@@ -109,7 +109,7 @@
 						<img src="../Img/Adds/Icons_table/Afford.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2> $ 749 </h2>
-						<button class="buy_buttons">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
 					</th>
 
 					<th>
@@ -118,7 +118,7 @@
 						<img src="../Img/Adds/Icons_table/Shapes.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2>$ 999 </h2>
-						<button class="buy_buttons_2">Join The Family!</button>
+						<button class="buy_buttons_2" onclick="send_to_buy">Join The Family!</button>
 					</th>
 
 					<th>
@@ -127,7 +127,7 @@
 						<img src="../Img/Adds/Icons_table/Luxury_car.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2>$ 1099 </h2>
-						<button class="buy_buttons">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
 					</th>
 
 					<th>
@@ -136,7 +136,7 @@
 						<img src="../Img/Adds/Icons_table/Gold.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2>$ 1399 </h2>
-						<button class="buy_buttons">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
 					</th>
 				</tr>
 
@@ -248,7 +248,7 @@
 						<li class="items">######</li>
 					</ul>
 					<p class="text_in_table"> $ ##.##</p>
-					<button class="Sigh_up_button">Buy Now!</button>
+					<button class="Sigh_up_button" onclick="send_to_buy">Buy Now!</button>
 				</th>
 
 				<th class="row_two">
@@ -259,7 +259,7 @@
 						<li class="items">######</li>
 					</ul>
 					<p class="text_in_table">$ ##.##</p>
-					<button class="Sigh_up_button">Buy Now!</button>
+					<button class="Sigh_up_button" onclick="send_to_buy">Buy Now!</button>
 				</th>
 
 				<th class="row_two">
@@ -270,7 +270,7 @@
 						<li class="items">######</li>
 					</ul>
 					<p class="text_in_table">$ ##.##</p>
-					<button class="Sigh_up_button">Buy Now!</button>
+					<button class="Sigh_up_button" onclick="send_to_buy">Buy Now!</button>
 				</th>
 			</table>
 		</div>
@@ -327,6 +327,14 @@
 			}
 			slides[slideIndex-1].style.display = "block";  
 			dots[slideIndex-1].className += " active";
+			}
+
+
+			function send_to_buy(){
+				var final = confirm("Please confirm, Yopu will be redirected to the buy page\nThank You!");
+				if (final){
+					location.replace("Pricing.html")
+				}
 			}
 		</script>
 	</body>

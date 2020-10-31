@@ -646,7 +646,7 @@ button, input[type="submit"] {
     line-height:1; 
     border-radius: 1.2em;
 }
-button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+button:hover, button:focus, button:active {
     background: #A7DBD8;
     border-color:#0c87ec;
     color:#000;
@@ -664,5 +664,4 @@ input[type=text] {
 .tab_buy{
 	margin-left: auto;
 	  margin-right: auto;
-	  padding-left: 50px1;
 }
