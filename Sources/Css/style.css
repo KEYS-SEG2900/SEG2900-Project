@@ -417,21 +417,20 @@ button.buy_buttons:hover{
 /* Table 2 */
 
 .s_table{
-	margin: 0 auto;
-	padding: 50px 0 0;
-	max-width: 960px;
 	width: 100%;
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
 .tb_two{
-	background-color: rgba(235, 238, 240, 0.932);
-	border-radius: 10px;
-	padding: 15px 25px;
-	position: relative;
-	width: 100%;
-	z-index: 10;
-	
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+	grid-gap: 2.5rem;
+	padding: 5rem 0
 }
 
 .mod-img{
@@ -485,6 +484,63 @@ button.buy_buttons:hover{
 a:visited {
 	text-decoration: none;
   }
+
+.row_two{
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #c2c2c2;
+	padding: 2rem;
+	position: relative;
+}
+
+.row_two::before, .row_two::after{
+	content: '';
+	position: absolute;
+}
+
+.row_two::before{
+	background-color: #151515;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.row_two::after{
+	background: var(--background-color);
+	background-size: var(--background-size);
+	top: -3px;
+	left: -3px;
+	width: calc(100% + 6px);
+	height: calc(100% + 6px);
+	z-index: -2;
+}
+
+.row_two span.pprice{
+	display: block;
+}
+
+.row_two .features-item{
+	padding: 1rem;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	font-size: 1.7rem;
+}
+
+.row_two .pprice{
+	background: var(--background-color);
+	background-size: var(--background-size);
+	-webkit-background-clip: text;
+	color: transparent;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.row_two .homy:hover{
+	border: 1px solid #f25f61;
+	color: #f25f61;
+}
   
 /*  HOME PAGE *************/
 
