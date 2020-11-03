@@ -580,28 +580,28 @@ a:visited {
 	}
 
 	.model1 {
-		background: url('../Img/microchip.jpg')
+		background: url('../Img/apple_watch4.jpg')
 		azure;
 		background-position: center;
 		background-size: cover;
 		background-blend-mode: multiply;
 	}
 	.model2 {
-		background: url('../Img/microchip.jpg')
+		background: url('../Img/apple_watch2.jpg')
 		azure;
 		background-position: center;
 		background-size: cover;
 		background-blend-mode: multiply;
 	}
 	.model3 {
-		background: url('../Img/microchip.jpg')
+		background: url('../Img/apple_watch1.jpg')
 		azure;
 		background-position: center;
 		background-size: cover;
 		background-blend-mode: multiply;
 	}
 	.model4 {
-		background: url('../Img/watchmechanism1.jpg')
+		background: url('../Img/apple_watch3.jpg')
 		azure;
 		background-position: center;
 		background-size: cover;
@@ -720,4 +720,67 @@ input[type=text] {
 .tab_buy{
 	margin-left: auto;
 	  margin-right: auto;
+}
+
+/* FAQ page ************** */
+.rows-1{
+	
+	border: border-box;
+	margin-top: 55px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 40px;
+	background-color:#005357;
+	border-radius: 15px;
+		
+	body{
+		font-family: 'Poppins','sans-serif';
+	}	
+}
+.title_h3{
+		font-family: 'Poppins','sans-serif';
+		padding: 8px;
+		margin-bottom: 15px;
+		background-color: darkorange;
+		color: black ;
+		font-size: larger;
+		border-radius: 15px;
+		
+	}
+
+.rows-2{
+	position: auto;
+	align-items: center;
+	background-position: auto;
+	border: border-box;
+	margin: 75px;
+	background-color: #005357;
+	border-radius: 15px;
+	body{
+		font-family: 'Poppins','sans-serif';
+	}
+}
+.rows-3{
+	position: auto;
+	align-items: center;
+	background-position: auto;
+	border: border-box;
+	margin: 75px;
+	background-color: #005357;
+	border-radius: 15px;
+	body{
+		font-family: 'Poppins','sans-serif';
+	}
+}
+.rows-4{
+	position: auto;
+	align-items: center;
+	background-position: auto;
+	border: border-box;
+	margin: 75px;
+	background-color: #005357;
+	border-radius: 15px;
+	body{
+		font-family: 'Poppins','sans-serif';
+	}
 }
