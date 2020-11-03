@@ -1,0 +1,68 @@
+Home
+====
+- Center-aligned Buy Now button that leads to Buy Now page
+- Four pictures in a row (put some sort of animation upon hover) leading to the different pages of the website
+- One big picture of watch
+	- Sort of like a diagram where some light blue lines point at certain main features with short descriptions
+	- Looks circuit-like
+- Several thick lighter-blue (like navy-ish) boxes
+	- Put variety in layout:
+		- Picture on one side and text on the other (keep it short and sweet)
+		- stacked picture/icon with text on the bottom -> center-aligned
+- Light-blue screen that when the user hovers on the edge of, it tilts in that direction, darkening the screen
+	- Portrays privacy features of watch screen and hollogram projection 
+
+About Us
+========
+- Timeline:
+	- Line with clock picture in the middle
+	- Delayed appearances of information boxes on either side (by like 2 ms)
+- Transition to events going on Today (charity-work aka fundraisers, theme updates, etc.)
+- Meet the team:
+	- Circular pictures of members with role descriptions underneath
+	- Three up top, three on the bottom (MAIN CREW)
+- Goals and Achievements:
+	- [idk come up with something and make it look pretty]
+
+Watches 	(a joint venture between product description and product functionality)
+=======
+[idk really but has to explain all the fun stuff like how the "virtual space works", "keeping food warm" feature, etc]
+- Instuctions? Where to find help? (<-- link to Contact Us page)
+
+Models
+======
+- Model comparison table (already coded)
+- Model introduction section (already coded)
+- Themes and their variations
+	- Three categories:
+		- Basic colours
+		- Seasonal (Winter, Summer, Spring, Fall)
+		- Holidays
+- Add-ons?
+- Review/Comment Section:
+	- Have like 3 "fake" reviews
+	- Can add more with "Add comment" on the bottom
+		--> User will have to fill-in: ratings, model bought, comment
+	- Can only view at most 5 reviews, ("v"/"Show more":to expand and view all/more reviews)
+
+Buy Now
+=======
+- Picture on product on the left
+- Right contains Model drop-down menu (select Model), and Theme options (boxes that could be selected)
+- Continue button: expands Private Info section, choose payment method
+- Payment method leads to another page, where user will have to confirm all the details (has go back option to edit), agree to Terms & Services and Policy Agreements, enter money info
+	--> Thank you for your purchase page (put randomized transaction code)
+
+Contact Us
+==========
+- Fill-in form:
+	- Sections: Name, Email, Reason, Message
+	- Sent button at the bottom (Confirm notification when clicked)
+		--> Clear form fill-ins and display "Your message has been sent!" under Sent button
+- FAQ:
+	- Format: 
+		"Q: Some words?"
+		"A: Yes, words"
+	- Space between every question-answer pair 
+
+
