@@ -726,7 +726,6 @@ input[type=text] {
 
 /* FAQ page ************** */
 .rows-1{
-	
 	border: border-box;
 	margin-top: 55px;
 	margin-left: 75px;
@@ -734,11 +733,10 @@ input[type=text] {
 	margin-bottom: 40px;
 	background-color:#005357;
 	border-radius: 15px;
-		
-	body{
-		font-family: 'Poppins','sans-serif';
-	}	
+	text-align: left;
+	text-indent: 12px;
 }
+
 .title_h3{
 		font-family: 'Poppins','sans-serif';
 		padding: 8px;
@@ -747,7 +745,7 @@ input[type=text] {
 		color: white ;
 		font-size: larger;
 		border-radius: 15px;
-		
+		text-align: center;
 	}
 
 .rows-2{
@@ -758,9 +756,8 @@ input[type=text] {
 	margin: 75px;
 	background-color: #005357;
 	border-radius: 15px;
-	body{
-		font-family: 'Poppins','sans-serif';
-	}
+	text-align: left;
+	text-indent: 12px;
 }
 .rows-3{
 	position: auto;
@@ -770,9 +767,8 @@ input[type=text] {
 	margin: 75px;
 	background-color: #005357;
 	border-radius: 15px;
-	body{
-		font-family: 'Poppins','sans-serif';
-	}
+	text-align: left;
+	text-indent: 12px;
 }
 .rows-4{
 	position: auto;
@@ -782,14 +778,8 @@ input[type=text] {
 	margin: 75px;
 	background-color: #005357;
 	border-radius: 15px;
-	body{
-		font-family: 'Poppins','sans-serif';
-	}
-
-.question_faq{
-	float: left;
-	font-style: italic;
-}
+	text-align: left;
+	text-indent: 12px;
 }
 
 .wrapper{
