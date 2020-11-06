@@ -786,3 +786,95 @@ input[type=text] {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+
+
+/* ABOUT US - Timeline*/
+#timeline_table{
+	padding: 5px;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: rgb(0, 0, 0);
+	padding-bottom: 750px;
+}
+
+#timeline{
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.tt_fl{
+	float:left;
+	width:50%;
+}
+
+.tt_fl:after{
+	float: none;
+	clear: both;
+}
+
+#tt_mp{
+	background-image: url('../Img/circuit_tree6.png');
+	background-position: top;
+	width: 550px;
+	height: 900px;
+	margin-right: 20px;
+	margin-left:50px;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.colu{
+	width: 25%;
+	padding: 20px 70px;
+	line-break: loose;
+}
+
+#tt_table{
+	width:100%;
+	height: 650px;
+	margin-left: 80px;
+}
+
+#tt_table tr{
+	text-align: center;
+	overflow-wrap: normal;
+	/*border: 2px solid white;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#tt_table th{
+	color: rgb(255, 123, 0);
+	font-size: 24pt;
+	font-weight: 500;
+	padding: 0px 80px;
+}
+
+#tt_table td{
+	color: rgb(180, 180, 180);
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+#tt_table tr:hover{
+	background-color: rgb(35, 55, 66);
+}
+
+#tt_title{
+	font-size: 28pt;
+	color: white;
+	text-align: center;
+	align-self: center;
+	width: 100%;
+	margin-left: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#au_team{
+	background-color: rgb(255, 225, 160);
+	color: black;
+	padding: 100px;
+}
