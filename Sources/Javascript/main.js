@@ -73,3 +73,21 @@ function slide(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+// ABOUT US - flashcard
+function flip1(){
+	var check = document.getElementByClass("gs_unknown");
+	var back = document.getElementById("gu_back");
+	var front = document.getElementById("gu_front");
+
+	if (check.clicked == true){
+		back.style.height = "100%";
+		front.style.height = "0%";
+	} 
+	else {
+		back.style.height = "100%";
+		front.style.height = "0%";
+	}
+}
