@@ -873,8 +873,82 @@ input[type=text] {
 	padding-bottom: 10px;
 }
 
-#au_team{
-	background-color: rgb(255, 225, 160);
-	color: black;
-	padding: 100px;
+
+/*ABOUT US - Intermission*/
+
+#interm{
+	background-image: url('../Img/bg_hexa2.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	width: 100%;
 }
+
+
+/*ABOUT US - team*/
+
+#au_team{
+	/*background-image: repeating-linear-gradient(rgb(6, 18, 68), rgb(13, 89, 189));*/
+	background-color: rgb(0, 7, 37);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 42pt;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 700px;
+}
+
+.at_layout{
+	float: left;
+}
+
+#at_title{
+	width: 40%;
+	font-size: 90pt;
+	text-align: left;
+	display: block;
+	margin: auto;
+	transform: translate(10%, 30%);
+}
+
+.pd_text{
+	margin: 20px 0px;
+	width: 200px;
+	text-align: center;
+}
+
+.pd_element{
+	float: left;
+}
+
+.pd_person img{
+	width: 180px;
+	border-radius: 150px;
+	display: block;
+	align-items: center;
+	margin:auto;
+	border: 2px solid chocolate;
+}
+
+.people_divider{
+	display:block;
+	width: 50%;
+}
+
+.pd_person{
+	font-size: 14pt;
+	/*background-color: chocolate;*/
+	margin: 20px 20px;
+	padding: 10px 10px;
+	align-content: center;
+}
+
+.at_layout:after{
+	float: none;
+	clear: both;
+}
+
+
