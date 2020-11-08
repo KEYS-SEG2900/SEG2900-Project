@@ -77,17 +77,80 @@ function slide(n) {
 
 
 // ABOUT US - flashcard
-function flip1(){
-	var check = document.getElementByClass("gs_unknown");
+function flip(){
 	var back = document.getElementById("gu_back");
 	var front = document.getElementById("gu_front");
 
-	if (check.clicked == true){
-		back.style.height = "100%";
-		front.style.height = "0%";
+	if (front.style.display == "block"){
+		back.style.display = "block";
+		back.classList.remove('ani_fadeOut');
+		back.classList.add('ani_fadeIn');
+		front.classList.remove('ani.fadeIn');
+		front.classList.add('ani_fadeOut')
+		front.style.display = "none";
 	} 
 	else {
-		back.style.height = "100%";
-		front.style.height = "0%";
+		back.classList.remove('ani_fadeIn');
+		back.classList.add('ani_fadeOut');
+		back.style.display = "none";
+		front.classList.remove('ani_fadeOut');
+		front.classList.add('ani_fadeIn');
+		front.style.display = "block";
 	}
 }
+
+function flip2(){
+	var back = document.getElementById("gi_back");
+	var front = document.getElementById("gi_front");
+
+	if (front.style.display == "block"){
+		back.style.display = "block";
+		back.classList.remove('ani_fadeOut');
+		back.classList.add('ani_fadeIn');
+		front.classList.remove('ani.fadeIn');
+		front.classList.add('ani_fadeOut')
+		front.style.display = "none";
+	} 
+	else {
+		back.classList.remove('ani_fadeIn');
+		back.classList.add('ani_fadeOut');
+		back.style.display = "none";
+		front.classList.remove('ani_fadeOut');
+		front.classList.add('ani_fadeIn');
+		front.style.display = "block";
+	}
+}
+
+
+function flip3(){
+	var back = document.getElementById("gs_back");
+	var front = document.getElementById("gs_front");
+
+	if (front.style.display == "block"){
+		back.style.display = "block";
+		back.classList.remove('ani_fadeOut');
+		back.classList.add('ani_fadeIn');
+		front.classList.remove('ani.fadeIn');
+		front.classList.add('ani_fadeOut')
+		front.style.display = "none";
+	} 
+	else {
+		back.classList.remove('ani_fadeIn');
+		back.classList.add('ani_fadeOut');
+		back.style.display = "none";
+		front.classList.remove('ani_fadeOut');
+		front.classList.add('ani_fadeIn');
+		front.style.display = "block";
+	}
+}
+
+/*
+function changepic(){
+	var section=document.getElementById("gs_unknown");
+	section.style.backgroundImage="url('../Img/roads2.png')";	
+}
+
+function changeback(){
+	var section=document.getElementById("gs_unknown");
+	section.style.backgroundImage="url('../Img/roads3.png')";	
+}*/
