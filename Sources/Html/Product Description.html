@@ -108,11 +108,7 @@
 		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../Img/Adds/Icons_table/Arrow_up.svg" width="25 px" height="25 px"></button>
 
 
-		<div class="col-md-4">
-			<h1>Welcome to Keys Pricing</h1>
-			<p>A revolutionary product</p>
 
-		</div>
 
 		
 
@@ -126,7 +122,7 @@
 						<img src="../Img/Adds/Icons_table/Afford.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2> $ 749 </h2>
-						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy()">Join The Family!</button>
 					</th>
 
 					<th>
@@ -135,7 +131,7 @@
 						<img src="../Img/Adds/Icons_table/Shapes.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2>$ 999 </h2>
-						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy()">Join The Family!</button>
 					</th>
 
 					<th>
@@ -144,7 +140,7 @@
 						<img src="../Img/Adds/Icons_table/Luxury_car.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2>$ 1099 </h2>
-						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy()">Join The Family!</button>
 					</th>
 
 					<th>
@@ -153,7 +149,7 @@
 						<img src="../Img/Adds/Icons_table/Gold.svg" alt = "" height="50 px" width="50px">
 						<br>
 						<h2>$ 1399 </h2>
-						<button class="buy_buttons" onclick="send_to_buy">Join The Family!</button>
+						<button class="buy_buttons" onclick="send_to_buy()">Join The Family!</button>
 					</th>
 				</tr>
 
@@ -348,7 +344,7 @@
 
 
 			function send_to_buy(){
-				var final = confirm("Please confirm, Yopu will be redirected to the buy page\nThank You!");
+				var final = confirm("Please confirm, You will be redirected to the buy page\nThank You!");
 				if (final){
 					location.replace("Pricing.html")
 				}
