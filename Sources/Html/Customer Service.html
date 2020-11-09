@@ -196,7 +196,7 @@
     <textarea  class="input" name="message" placeholder="Write us a message!" id="comment" rows="7" cols="30"></textarea><br />
 <!--    <span id="message_validation" class="error_message"></span>-->
   </div>
-    <input id="submit_button" type="submit" value="Send email" />
+    <input id="submit_button" type="submit" value="Send email" onclick="submit_email()"/>
 </form>
 
 		<script>
@@ -250,6 +250,9 @@
             }
 
         }
+        function submit_email(){
+				var final = confirm("Thank You for sending us an email! We will get back to you soon!")
+			}
     </script>
 
 
