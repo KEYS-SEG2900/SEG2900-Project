@@ -44,10 +44,10 @@
 	</div>
 
 	
-	<table class="tab_buy" style="background:rgb(64, 96, 235);">
+	<table class="tab_buy" style="background:rgb(0, 0, 153);">
 		<th>
 			<!--Table Left add to cart-->
-			<form style="padding-right: 50px; padding-left: 50 px;">
+			<form style="padding-right: 50px; padding-left: 50px;">
 				<div>
 					<div>
 						<h3>Billing Address</h3>
@@ -55,8 +55,8 @@
 							<input type="text" id="fname" name="firstname" placeholder="Master Key">
 							<label for="email"><i class=""></i> Email</label>
 							<input type="text" id="email" name="email" placeholder="KEYS@Future.com">
-							<label for="adr"><i class=""></i> Address</label>
-							<input type="text" id="" name="address" placeholder="Group 8th Street">
+							<label for="address"><i class=""></i> Address</label>
+							<input type="text" id="address" name="address" placeholder="Group 8th Street">
 							<label for="city"><i class="adr"></i> City</label>
 							<input type="text" id="city" name="city" placeholder="Ottawa">
 					</div>
@@ -99,7 +99,7 @@
 
 		<th>
 			<!--Table right add to cart-->
-			<div class="table_catable_cart_adding"> 
+			<div class="table_catable_cart_adding" style="background: rgb(0,0,153);">
 				<h1>Welcome To The Family!</h1>
 				<p>Slogan or other thing here</p>
 				<p>Click 'Empty Cart' button to remove session cookies from browser.</p>
@@ -294,7 +294,7 @@
 
 
 			function confirm_buy(){
-				var final = confirm("Press ok to confirm puchese!\n Thank You!");
+				var final = confirm("Press ok to confirm purchase!\n Thank You!");
 				if (final){
 					location.replace("Thank_you.html")
 				}
