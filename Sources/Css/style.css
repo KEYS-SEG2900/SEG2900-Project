@@ -1116,12 +1116,22 @@ background: #e2e2e2;
 	border-radius: 20px;
 }
 
-#table_one table, th {
-	border: 2px solid white;
+/*#table_one table, th {
+	border-bottom: 2px solid white;
+	padding: 5 px;
+}*/
+
+#row_one {
+	border-bottom: 2px solid white;
 	padding: 5 px;
 }
 
 #table_one table, tr {
 	border: none;
 	padding: 5 px;
+}
+
+#sec_one {
+	background: -webkit-linear-gradient(left, #247ce0, #0804f5);
+  	background: linear-gradient(to right, #0860e4, #072cce);
 }
