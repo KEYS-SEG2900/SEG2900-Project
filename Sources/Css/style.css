@@ -1135,3 +1135,7 @@ background: #e2e2e2;
 	background: -webkit-linear-gradient(left, #247ce0, #0804f5);
   	background: linear-gradient(to right, #0860e4, #072cce);
 }
+
+#row_one th{
+	border: 2px solid white;
+}
