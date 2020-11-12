@@ -889,10 +889,12 @@ input[type=text] {
 /*ABOUT US - team*/
 
 #au_team{
-	/*background-image: repeating-linear-gradient(rgb(6, 18, 68), rgb(13, 89, 189));*/
 	background-color: rgb(0, 7, 37);
+	background-image: url(../Img/key.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	background-blend-mode: overlay;
 	color: white;
 	font-size: 42pt;
 	padding-top: 30px;
@@ -943,7 +945,6 @@ input[type=text] {
 
 .pd_person{
 	font-size: 14pt;
-	/*background-color: chocolate;*/
 	margin: 20px 20px;
 	padding: 10px 10px;
 	align-content: center;
@@ -985,7 +986,7 @@ input[type=text] {
 .g_section{
 	float:left;
 	transform:translate(100%, 0%);
-	margin-left: 25px;
+	margin: 0px 25px;
 	width:18%;
 	height: 600px;
 	text-align: center;
@@ -1051,6 +1052,12 @@ input[type=text] {
 .g_section img{
 	display: block;
 	margin: auto;
+}
+
+.g_section:hover{
+	box-shadow: 0 3px 10px 0 rgba(151, 243, 255, 0.733), 0 3px 10px 0 rgba(151, 243, 255, 0.733);
+	transition-timing-function: linear;
+	transition-duration: 0.3s;
 }
 
 /* ABOUT US - goal flashcards*/

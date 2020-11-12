@@ -81,21 +81,21 @@ function flip(){
 	var back = document.getElementById("gu_back");
 	var front = document.getElementById("gu_front");
 
-	if (front.style.display == "block"){
-		back.style.display = "block";
-		back.classList.remove('ani_fadeOut');
-		back.classList.add('ani_fadeIn');
-		front.classList.remove('ani.fadeIn');
-		front.classList.add('ani_fadeOut')
-		front.style.display = "none";
-	} 
-	else {
+	if (front.style.display == "none"){
 		back.classList.remove('ani_fadeIn');
 		back.classList.add('ani_fadeOut');
 		back.style.display = "none";
 		front.classList.remove('ani_fadeOut');
 		front.classList.add('ani_fadeIn');
 		front.style.display = "block";
+	} 
+	else {
+		back.style.display = "block";
+		back.classList.remove('ani_fadeOut');
+		back.classList.add('ani_fadeIn');
+		front.classList.remove('ani.fadeIn');
+		front.classList.add('ani_fadeOut');
+		front.style.display = "none";
 	}
 }
 
@@ -103,21 +103,21 @@ function flip2(){
 	var back = document.getElementById("gi_back");
 	var front = document.getElementById("gi_front");
 
-	if (front.style.display == "block"){
-		back.style.display = "block";
-		back.classList.remove('ani_fadeOut');
-		back.classList.add('ani_fadeIn');
-		front.classList.remove('ani.fadeIn');
-		front.classList.add('ani_fadeOut')
-		front.style.display = "none";
-	} 
-	else {
+	if (front.style.display == "none"){
 		back.classList.remove('ani_fadeIn');
 		back.classList.add('ani_fadeOut');
 		back.style.display = "none";
 		front.classList.remove('ani_fadeOut');
 		front.classList.add('ani_fadeIn');
 		front.style.display = "block";
+	} 
+	else {
+		back.style.display = "block";
+		back.classList.remove('ani_fadeOut');
+		back.classList.add('ani_fadeIn');
+		front.classList.remove('ani.fadeIn');
+		front.classList.add('ani_fadeOut');
+		front.style.display = "none";
 	}
 }
 
@@ -126,21 +126,21 @@ function flip3(){
 	var back = document.getElementById("gs_back");
 	var front = document.getElementById("gs_front");
 
-	if (front.style.display == "block"){
-		back.style.display = "block";
-		back.classList.remove('ani_fadeOut');
-		back.classList.add('ani_fadeIn');
-		front.classList.remove('ani.fadeIn');
-		front.classList.add('ani_fadeOut')
-		front.style.display = "none";
-	} 
-	else {
+	if (front.style.display == "none"){
 		back.classList.remove('ani_fadeIn');
 		back.classList.add('ani_fadeOut');
 		back.style.display = "none";
 		front.classList.remove('ani_fadeOut');
 		front.classList.add('ani_fadeIn');
 		front.style.display = "block";
+	} 
+	else {
+		back.style.display = "block";
+		back.classList.remove('ani_fadeOut');
+		back.classList.add('ani_fadeIn');
+		front.classList.remove('ani.fadeIn');
+		front.classList.add('ani_fadeOut');
+		front.style.display = "none";
 	}
 }
 
