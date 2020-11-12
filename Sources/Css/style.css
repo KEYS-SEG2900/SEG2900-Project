@@ -1158,12 +1158,15 @@ background: #e2e2e2;
 }
 
 .h_buynow img{
-	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+	width: calc((100% - 160px)/2);
 }
 
 .h_buynow button{
 	background-color: rgb(255, 38, 0);
 	border-radius: 20px;
+	width: 140px;
 	border-color: rgb(255, 38, 0);
 	transition-timing-function: linear;
 	transition-duration: 0.3s;
@@ -1175,5 +1178,4 @@ background: #e2e2e2;
 
 .h_buynow button:hover{
 	border-color: rgba(151, 243, 255, 0.733);
-	/*box-shadow: 3px 3px 4px 0 rgba(151, 243, 255, 0.733), 3px 3px 10px 0 rgba(151, 243, 255, 0.733);*/
 }
