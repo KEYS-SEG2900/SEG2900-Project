@@ -1152,8 +1152,9 @@ background: #e2e2e2;
 /* HOME - Buy Now link*/
 
 .h_buynow{
+	margin-top: 50px;
 	width: 100%;
-	height: 120px;
+	height: 90px;
 	float:left;
 }
 
@@ -1178,4 +1179,90 @@ background: #e2e2e2;
 
 .h_buynow button:hover{
 	border-color: rgba(151, 243, 255, 0.733);
+}
+
+/*HOME - Navigation Section*/
+
+#h_navitable{
+	width: 100%;
+	height: 900px;
+	align-items: center;
+}
+
+.nt_line{
+	display: block;
+	margin: auto;
+	padding-left: 4%;
+	padding-bottom: 5%;
+}
+
+.nt_lform{
+	color: white;
+	width: 325px;
+	height: 600px;
+	padding-top: 50px;
+	text-align: center;
+	margin: 50px 20px;
+	overflow: hidden;
+	font-size: 24pt;
+	/*text-shadow: 2px 2px #000108;*/
+	float:left;
+	display: in-line block;
+	align-self: center;
+	font-variant: small-caps;
+	box-shadow: 1px 1px black, 1px 1px black;
+	border: 1px solid rgba(1, 0, 8, 0);
+	transition-timing-function: linear;
+	transition-duration: 0.5s;
+}
+
+.nt_lform:hover{
+	border: 1px solid rgba(151, 243, 255, 0.733);
+}
+
+#nt_team{
+	background-image: url(../Img/linesdotsA.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#nt_watch{
+	background-image: url(../Img/linesdotsB.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#nt_mod{
+	background-image: url(../Img/linesdotsC.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#nt_contact{
+	background-image: url(../Img/linesdotsD.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nt_title{
+	border: 1px solid white;
+	padding: 10px;
+	max-width: fit-content;
+	display: block;
+	margin: auto;
+}
+
+#h_intrm{
+	background-image: url("../Img/cubes1.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 200px;
 }
