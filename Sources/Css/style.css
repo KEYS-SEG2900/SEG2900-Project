@@ -1361,3 +1361,126 @@ background: #e2e2e2;
 	width: 100%;
 	height: 200px;
 }
+
+/* WATCHES - Top Definition*/
+#pd_basic{
+	width: 100%;
+	align-content: center;
+	height: 200px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	overflow-wrap: normal;
+}
+
+#pdb_text{
+	margin: 25px 200px;
+	overflow-wrap: normal;
+	color: rgb(190, 190, 190);
+	font-size: 14pt;
+}
+
+#pdb_title{
+	font-size: 36pt;
+	letter-spacing: 1px;
+	color: white;
+}
+
+
+/* WATCHES - Characteristics Table*/
+
+#pd_listpic{
+	width: 100%;
+	height: 280px;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lp_element{
+	float: left;
+	height: 95%;
+	margin: 5px 10px;
+	align-content: center;
+}
+
+#lp_content{
+	background-image: linear-gradient(rgb(0, 2, 12), rgb(13, 12, 88));
+	border: 4px solid rgb(190, 190, 190);
+	width: 82%;
+	margin-right: 25px;
+	overflow-wrap: normal;
+	text-align: center;
+}
+
+#lp_pic{
+	margin-right: 0px;
+	vertical-align: middle;
+}
+
+#lp_title{
+	padding-top: 20px;
+	width: 100%;
+	color: white;
+	font-size: 24pt;
+	font-variant: small-caps;
+}
+
+#lp_list{
+	width: calc(100%-20px);
+	margin: 10px;
+	text-align: left;
+}
+
+.lp-list_item{
+	float: left;
+	width: 20%;
+	line-height: 40px;
+}
+
+.lp-list_item ul{
+	list-style-type: none;
+}
+
+.lp-list_item li:hover{
+	color: rgb(255, 135, 50);
+}
+
+/*WATCHES - Intermission*/
+#pd_interm{
+	background-image: url("../Img/triangles.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100px;
+}
+
+
+/*WATCHES - Hollogram/Interface*/
+
+#pd_title{
+	text-align: center;
+	font-size: 32pt;
+	letter-spacing: 2px;
+}
+
+#pd_h-contain{
+	width: calc(100%-20px);
+	/*background-color: rgb(188, 169, 255);*/
+	background-image: url(../Img/starry_sky3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:20px 10px;
+	align-content: center;
+}
+
+#pd_h-contain img{
+	width: 70%;
+	display: block;
+	margin: auto;
+	border: 10px solid white;
+	border-radius: 50px;
+}
