@@ -724,7 +724,7 @@ input[type=text] {
 	background-color:#005357;
 	border-radius: 15px;
 	text-align: left;
-	text-indent: 12px;
+	text-indent: 25px;
 }
 
 .title_h3{
@@ -766,10 +766,11 @@ input[type=text] {
 	background-position: auto;
 	border: border-box;
 	margin: 75px;
+	padding-bottom: 10px;
 	background-color: #005357;
 	border-radius: 15px;
-	text-align: left;
-	text-indent: 12px;
+	text-align: center;
+	text-indent: 20px;
 }
 
 .wrapper{
