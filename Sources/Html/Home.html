@@ -134,7 +134,48 @@
 
 
 
+		<!--Slide adds-->
+		<div class="add-show">
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide1.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide2.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide3.PNG" style="width:100%">
+			</div>
 
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide4.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide5.PNG" style="width:100%">
+			</div>
+			
+			<div class="next_slide">
+				<img src="../Img/Adds/PPT_SEG_PIC/Slide6.PNG" style="width:100%">
+
+			</div>
+
+			<a class="prev" onclick="slide_mover(-1)">&#10094;</a>
+			<a class="next" onclick="slide_mover(1)">&#10095;</a>
+		</div>
+
+		<br><br>
+
+		<div style="text-align:center">
+			<span class="order" onclick="slide_num(1)"></span> 
+			<span class="order" onclick="slide_num(2)"></span> 
+			<span class="order" onclick="slide_num(3)"></span>
+			<span class="order" onclick="slide_num(4)"></span> 
+			<span class="order" onclick="slide_num(5)"></span> 
+			<span class="order" onclick="slide_num(6)"></span>
+		</div>
+		
 		<!--Footer-->
 		<footer class="footer">
 			<hr>
@@ -154,6 +195,44 @@
             </div>
     	</footer>
 
+
+		<script>
+			//add-show
+			var slideIndex = 1;
+			slide(slideIndex);
+	
+			function slide_mover(n) {
+			slide(slideIndex += n);
+			}
+	
+			function slide_num(n) {
+			slide(slideIndex = n);
+			}
+	
+			function slide(n) {
+			var i;
+			var slides = document.getElementsByClassName("next_slide");
+			var dots = document.getElementsByClassName("order");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			}
+
+
+			function send_to_buy(){
+				var final = confirm("Please confirm, You will be redirected to the buy page\nThank You!");
+				if (final){
+					location.replace("Pricing.html")
+				}
+			}
+		</script>
 	</body>
 </html>
 
