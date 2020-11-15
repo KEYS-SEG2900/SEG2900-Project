@@ -138,17 +138,17 @@ a:hover {
 .head_pic{
 	max-width: 100%;
 	height: 100%;
-	background-image: url("../Img/microchip8.png");
+	background-image: url("../Img/microchip10.png");
 	background-repeat: no-repeat;
 	background-size: 110%;
-	background-position: center;
+	background-position: bottom;
 	padding-bottom: 350px;
 	position: relative;
 }
 
 .head_pic #logo{
 	max-width: 40%;
-	padding-top: 200px;
+	padding-top: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -174,32 +174,6 @@ a:hover {
 	100% {opacity:0.2;}
 }
 
-/* ICON TABLE - 3 COLUMNS */
-.mid_icon_table {
-	display: flex;
-	margin: 80px 80px;
-	align-content: center;
-	height: 500px;
-	width: auto;
-}
-
-.mid_icon_table .element{
-	float:left;
-	border-color: white;
-	border-width: 3px;
-	padding: 0px 150px;
-	align-content: center;
-	text-align: center;
-	flex: 33.33%;
-	display: block;
-}
-
-.element img{
-	max-height: 100px;
-	width: auto;
-	align-content: center;
-	padding-bottom: 10px;
-}
 
 /*add_show*/
 
@@ -370,8 +344,23 @@ table, th, td {
 	border-collapse: collapse;
 	padding: 5px;
 }
+
+.table_text th{
+	padding-left: 5%;
+	border-right: 1px solid rgb(101, 237, 255);
+}
+
+.table_text th:last-child{
+	border:0;
+}
+
 table {
 	border-spacing: 15px;
+	width: 96%;
+}
+
+.not_last{
+	border-right: 1px solid rgb(101, 237, 255);
 }
 
 table[align="center"] {
@@ -388,12 +377,14 @@ button.buy_buttons_2{
 	outline: none;
 	color: #fff;
 	background-color: #3139a3;
+	text-shadow: 1px 1px rgb(53, 53, 53);
 	border: none;
 	border-radius: 25px;
 }
 
 button.buy_buttons{
 	display: inline-block;
+	text-shadow: 1px 1px rgb(53, 53, 53);
 	padding: 15px 25px;
 	font-size: 20px;
 	cursor: pointer;
@@ -1152,7 +1143,6 @@ background: #e2e2e2;
 /* HOME - Buy Now link*/
 
 .h_buynow{
-	margin-top: 50px;
 	width: 100%;
 	height: 90px;
 	float:left;
@@ -1185,7 +1175,7 @@ background: #e2e2e2;
 
 #h_navitable{
 	width: 100%;
-	height: 900px;
+	height: 780px;
 	align-items: center;
 }
 
@@ -1200,9 +1190,9 @@ background: #e2e2e2;
 	color: white;
 	width: 325px;
 	height: 600px;
-	padding-top: 50px;
+	padding-top: 5%;
 	text-align: center;
-	margin: 50px 20px;
+	margin: 0px 20px;
 	overflow: hidden;
 	font-size: 24pt;
 	/*text-shadow: 2px 2px #000108;*/
@@ -1294,7 +1284,7 @@ background: #e2e2e2;
 	overflow-wrap: normal;
 }
 
-#st_little{
+.st_little{
 	padding: 0px 20px;
 	font-size: 20pt;
 	text-shadow: 1px 1px 2px black;
@@ -1354,4 +1344,161 @@ background: #e2e2e2;
 	height: 490px;
 	padding: 20px;
 	padding-top: 2%;
+}
+
+/* HOME -Intro Bottom*/
+
+#h_bot{
+	width: 100%;
+	background-image: linear-gradient( rgb(8, 141, 119), rgb(0, 90, 48));
+	height:545px;
+}
+
+#h_bot img{
+	width: 30%;
+	padding-top: 2%;
+	padding-left: 20px;
+	/*max-height: 540px;*/
+}
+
+#b_contain{
+	width: 60%;
+	height: 490px;
+	padding: 5px 20px;
+}
+
+/* HOME - Intermission 2*/
+
+#h_intrm2{
+	background-image: url("../Img/electric_down2.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 200px;
+}
+
+/* WATCHES - Top Definition*/
+#pd_basic{
+	width: 100%;
+	align-content: center;
+	height: 200px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	overflow-wrap: normal;
+}
+
+#pdb_text{
+	margin: 25px 200px;
+	overflow-wrap: normal;
+	color: rgb(190, 190, 190);
+	font-size: 14pt;
+}
+
+#pdb_title{
+	font-size: 36pt;
+	letter-spacing: 1px;
+	color: white;
+}
+
+
+/* WATCHES - Characteristics Table*/
+
+#pd_listpic{
+	width: 100%;
+	height: 280px;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lp_element{
+	float: left;
+	height: 95%;
+	margin: 5px 10px;
+	align-content: center;
+}
+
+#lp_content{
+	background-image: linear-gradient(rgb(0, 2, 12), rgb(13, 12, 88));
+	border: 4px solid rgb(190, 190, 190);
+	width: 82%;
+	margin-right: 25px;
+	overflow-wrap: normal;
+	text-align: center;
+}
+
+#lp_pic{
+	margin-right: 0px;
+	vertical-align: middle;
+}
+
+#lp_title{
+	padding-top: 20px;
+	width: 100%;
+	color: white;
+	font-size: 24pt;
+	font-variant: small-caps;
+}
+
+#lp_list{
+	width: calc(100%-20px);
+	margin: 10px;
+	text-align: left;
+}
+
+.lp-list_item{
+	float: left;
+	width: 25%;
+	line-height: 40px;
+}
+
+.lp-list_item ul{
+	list-style-type: none;
+}
+
+.lp-list_item li:hover{
+	color: rgb(0, 155, 147);
+}
+
+/*WATCHES - Intermission*/
+#pd_interm{
+	background-image: url("../Img/triangles.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100px;
+}
+
+
+/*WATCHES - Hollogram/Interface*/
+
+#pd_title{
+	text-align: center;
+	font-size: 32pt;
+	letter-spacing: 2px;
+}
+
+#pd_h-contain{
+	width: calc(100%-20px);
+	/*background-color: rgb(188, 169, 255);*/
+	background-image: url(../Img/starry_sky3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:20px 10px;
+	padding-bottom: 20px;
+	align-content: center;
+}
+
+#pd_h-contain img{
+	width: 70%;
+	display: block;
+	margin: auto;
+	border: 10px solid white;
+	border-radius: 50px;
 }
