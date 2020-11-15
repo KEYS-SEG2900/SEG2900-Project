@@ -344,8 +344,23 @@ table, th, td {
 	border-collapse: collapse;
 	padding: 5px;
 }
+
+.table_text th{
+	padding-left: 5%;
+	border-right: 1px solid rgb(101, 237, 255);
+}
+
+.table_text th:last-child{
+	border:0;
+}
+
 table {
 	border-spacing: 15px;
+	width: 96%;
+}
+
+.not_last{
+	border-right: 1px solid rgb(101, 237, 255);
 }
 
 table[align="center"] {
@@ -362,12 +377,14 @@ button.buy_buttons_2{
 	outline: none;
 	color: #fff;
 	background-color: #3139a3;
+	text-shadow: 1px 1px rgb(53, 53, 53);
 	border: none;
 	border-radius: 25px;
 }
 
 button.buy_buttons{
 	display: inline-block;
+	text-shadow: 1px 1px rgb(53, 53, 53);
 	padding: 15px 25px;
 	font-size: 20px;
 	cursor: pointer;
