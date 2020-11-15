@@ -1461,7 +1461,7 @@ background: #e2e2e2;
 }
 
 .lp-list_item li:hover{
-	color: rgb(0, 155, 147);
+	color: rgb(113, 223, 217);
 }
 
 /*WATCHES - Intermission*/
@@ -1491,7 +1491,7 @@ background: #e2e2e2;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:20px 10px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 	align-content: center;
 }
 
@@ -1501,4 +1501,126 @@ background: #e2e2e2;
 	margin: auto;
 	border: 10px solid white;
 	border-radius: 50px;
+}
+
+
+/*WATCHES - Intermission2*/
+#pd_interm2{
+	background-image: url("../Img/abstract_shapes2.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 8px;
+}
+
+/* WATCHES - Glass and Battery Section */
+
+#pd_glass{
+	width: 100%;
+	height: 400px;
+	background-image: linear-gradient(rgb(11, 18, 107), rgb(21, 108, 143),rgb(11, 18, 107));
+	background-color: rgb(9, 65, 87);
+	overflow: hidden;
+}
+
+.pdg_side{
+	float: left;
+}
+ 
+#pdg_img{
+	width: 30%;
+	padding: 20px 10px;
+}
+
+#pdg_box{
+	width: 65%;
+	color: white;
+	text-align: left;
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gt_title{
+	font-size: 32pt;
+	text-align: right;
+	text-shadow: 1px 1px rgb(73, 73, 73);
+	margin-bottom: 30px;
+}
+
+#gt_text{
+	padding: 0px 100px;
+	font-size: 18pt;
+	line-height: 30px;
+}
+
+#gt_title2{
+	font-size: 32pt;
+	padding-left: 50px;
+	padding-top: 10px;
+	text-align: left;
+	text-shadow: 1px 1px rgb(73, 73, 73);
+	margin-bottom: 30px;
+}
+
+#pd_life{
+	width: 100%;
+	height: 425px;
+	background-image: linear-gradient( rgb(13, 84, 112), rgb(0, 150, 125), rgb(13, 84, 112));
+	overflow: hidden;
+}
+
+#pdg_img2{
+	width: 25%;
+	padding: 15px 10px;
+}
+
+#pdg_box2{
+	width: 70%;
+	color: white;
+	text-align: left;
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* WATCHES - Privacy*/
+
+.pd_protect{
+	width: 100%;
+	height: 900px;
+	background-image: radial-gradient( rgb(8, 0, 44), rgb(1, 0, 14));
+}
+
+.prot_text{
+	width: 80%;
+	padding: 5% 10%;
+	color: rgb(182, 182, 182);
+	font-size: 14pt;
+	text-align: center;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.658);
+}
+
+.prot_text span{
+	font-size: 48pt;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	color: white;
+	display: block;
+}
+
+.prot_screen{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#screen-form{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(207, 207, 207);
+	border: 3px solid white;
 }
