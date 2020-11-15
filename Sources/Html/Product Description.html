@@ -23,6 +23,63 @@
 				list-style: none;
 			}
 
+			
+			
+			
+			.move_block {
+				
+				top: 10%;
+				left: 40%;
+				width: 300px;
+				height: 500px;
+				perspective: 900px;
+			}
+
+			.box {
+				
+				top: 0%;
+				width: 100%;
+				height: 100%;
+				transition: .5s all ease;
+				transform: rotateX(60deg) scale(0.7);
+				perspective: 900px;
+				box-shadow: 0px 20px 50px #555;
+				animation: entry 1s linear 1;
+			}
+
+			#c0 {
+				
+				top: 0%;
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(to bottom, #eba65b 30%, #d99267 100%);
+				z-index: 300;
+				box-shadow: 0px 20px 100px #555;
+			}
+
+			#c1 {
+				background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+				box-shadow: 0px 20px 100px #555;
+				left: 100%;
+				z-index: 0;
+			}
+
+			#c2 {
+				left: -100%;
+				z-index: 0;
+				background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+				box-shadow: 0px 20px 100px #555;
+			}
+
+			.box:hover {
+				cursor: pointer;
+				transform: rotate(0deg) scale(1) translateY(10px);
+				transition: .5s all ease;
+				z-index: 400;
+			}
+
+
+
 
 		</style>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -178,51 +235,79 @@
 	<div id="pd_h-contain">
 		<p id="pd_title">> Hollographic Interface <</p>
 		<img src="../Img/hollogram2.png">
+		<br>
+		<img src="../Img/dotx3_2.png" style="width: 5%; display: block; margin: auto; padding: 10px 20px; border-radius: 10px; border-width: 5px;">
+	</div>
+	
+	<div id="pd_interm2"></div>
+
+	<div id="pd_glass">
+		<img class="pdg_side" id="pdg_img" src="../Img/layers2.png">
+		<div class="pdg_side" id="pdg_box">
+			<div id="gt_title">
+				TripleLayer &copy Glass Protection
+				<hr style="width: 60%; margin-left: 40%;">
+			</div>
+			<div id="gt_text">
+				KEYS watches are designed to be indestructible with our new
+				integrated TripleLayer &copy design. The case is made to
+				absorb impact and fall damage, contains anti-shatter and antiscratch 
+				properties, and protects all the technocal components inside. 
+				<br><br>
+				<span style="text-align: center;">
+					With the TripleLayer &copy design, there is no need to be afraid of 
+					damaging your watch during your day-to-day activities!
+				</span>
+			</div>
+		</div>
 	</div>
 	<br>
-
-
-		<!--Slide adds-->
-		<div class="add-show">
-			<div class="next_slide">
-				<img src="../Img/Adds/PPT_SEG_PIC/Slide1.PNG" style="width:100%">
+	<div id="pd_life">
+		<div class="pdg_side" id="pdg_box2">
+			<div id="gt_title2">
+				Long Battery Life
+				<hr style="width: 60%; padding-left: 50px; margin-right: 40%;">
 			</div>
-			
-			<div class="next_slide">
-				<img src="../Img/Adds/PPT_SEG_PIC/Slide2.PNG" style="width:100%">
+			<div id="gt_text">
+				The KEYS watches have a battery that lasts for more that 12 hours when tested in 
+				high-preformance environments. However, a special feature of a KEYS watch is to
+				charge by itself. The watch uses a combination of solar and mechanical energy to
+				accomplish this.
+				<br><br>
+				<span style="text-align: center;">
+					The more time you spend outside, the less battery a KEYS watch will lose!
+				</span>
+				<br>
 			</div>
-			
-			<div class="next_slide">
-				<img src="../Img/Adds/PPT_SEG_PIC/Slide3.PNG" style="width:100%">
-			</div>
-
-			<div class="next_slide">
-				<img src="../Img/Adds/PPT_SEG_PIC/Slide4.PNG" style="width:100%">
-			</div>
-			
-			<div class="next_slide">
-				<img src="../Img/Adds/PPT_SEG_PIC/Slide5.PNG" style="width:100%">
-			</div>
-			
-			<div class="next_slide">
-				<img src="../Img/Adds/PPT_SEG_PIC/Slide6.PNG" style="width:100%">
-
-			</div>
-
-			<a class="prev" onclick="slide_mover(-1)">&#10094;</a>
-			<a class="next" onclick="slide_mover(1)">&#10095;</a>
 		</div>
+		<img class="pdg_side" id="pdg_img2" src="../Img/heart2.png">
+	</div>
 
-		<br><br>
+	<div id="pd_interm2"></div>
 
-		<div style="text-align:center">
-			<span class="order" onclick="slide_num(1)"></span> 
-			<span class="order" onclick="slide_num(2)"></span> 
-			<span class="order" onclick="slide_num(3)"></span>
-			<span class="order" onclick="slide_num(4)"></span> 
-			<span class="order" onclick="slide_num(5)"></span> 
-			<span class="order" onclick="slide_num(6)"></span>
+	<div class="pd_protect">
+		<div class="prot_text">
+			<span>Privacy Protection</span>
+			Maintaining privacy while operating a KEYS watch may have seemed like an 
+			impossible dream, were it not for the integrated darkening features of
+			our holographic screen. While managing the storage space, you don't need to
+			be afraid of others around you finding out what you own and keep - the
+			storage space is exclusively made for only your eyes.
 		</div>
+		<div style="width: 100%; text-align: center; color: rgb(100, 100, 100);">[Hover over the sides of the white rectangle below to see a demonstration of the privacy features at work]</div>
+		<div class="prot_screen">
+			<div id="screen-form"></div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="move_block">
+		<div class="box" id="c0">
+			
+			</div>
+	</div>
 
 		
 
@@ -299,35 +384,6 @@
     	</footer>
 
 		<script>
-			//add-show
-			var slideIndex = 1;
-			slide(slideIndex);
-	
-			function slide_mover(n) {
-			slide(slideIndex += n);
-			}
-	
-			function slide_num(n) {
-			slide(slideIndex = n);
-			}
-	
-			function slide(n) {
-			var i;
-			var slides = document.getElementsByClassName("next_slide");
-			var dots = document.getElementsByClassName("order");
-			if (n > slides.length) {slideIndex = 1}    
-			if (n < 1) {slideIndex = slides.length}
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";  
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex-1].style.display = "block";  
-			dots[slideIndex-1].className += " active";
-			}
-
-
 			function send_to_buy(){
 				var final = confirm("Please confirm, You will be redirected to the buy page\nThank You!");
 				if (final){
