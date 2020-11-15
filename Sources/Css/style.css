@@ -725,6 +725,7 @@ input[type=text] {
 	border-radius: 15px;
 	text-align: left;
 	text-indent: 25px;
+	padding-bottom: 10px;
 }
 
 .title_h3{
@@ -748,6 +749,7 @@ input[type=text] {
 	border-radius: 15px;
 	text-align: left;
 	text-indent: 12px;
+	padding-bottom: 10px;
 }
 .rows-3{
 	position: auto;
