@@ -154,3 +154,80 @@ function changeback(){
 	var section=document.getElementById("gs_unknown");
 	section.style.backgroundImage="url('../Img/roads3.png')";	
 }*/
+
+
+
+
+//Rotating screen (Watches Page)
+
+function rotate_back(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="none";
+	screen.style.filter="brightness(100%)";
+	screen.style.boxShadow="none";
+}
+
+function rotate_left_t(){							//top row
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateZ(5deg) rotateY(35deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="50px 50px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_top(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateX(35deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="0px 80px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_right_t(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateY(-35deg) rotateZ(-5deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="-50px 50px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_right(){										//mid row
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateY(-35deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="-80px 0px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_right_b(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateY(-35deg) rotateZ(5deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="-50px -50px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_bot(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateX(35deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="0px -80px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_left_b(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateY(35deg) rotateZ(-5deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="50px -50px rgba(0, 0, 0, 0.678)";
+}
+
+function rotate_left(){
+	screen=document.getElementById('screen-form')
+	screen.style.cursor="pointer";
+	screen.style.transform="rotateY(35deg)";
+	screen.style.filter="brightness(5%)";
+	screen.style.boxShadow="80px 0px rgba(0, 0, 0, 0.678)";
+}
