@@ -689,10 +689,12 @@ button, input[type="submit"] {
     border:1px solid #ff7c1e; 
     color:#fff; 
     background: #fd8c36; 
-    padding:0.6em 1em;
+    
     font-size:1em; 
     line-height:1; 
-    border-radius: 1.2em;
+	border-radius: 1.2em;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 button:hover, button:focus, button:active {
     background: #A7DBD8;
