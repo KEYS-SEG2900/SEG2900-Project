@@ -5,7 +5,7 @@ Team Name: Keys
 
 Organization link: [https://github.com/KEYS-SEG2900] <br />
 Repo link: [https://github.com/KEYS-SEG2900/SEG2900-Project.git] <br/>
-GitHub pages link: https://keys-seg2900.github.io/SEG2900-Project/.
+GitHub pages link: https://keys-seg2900.github.io/SEG2900-Project/Sources/Html/Home.html.
 
 Team Member Names:<br />
 Daniel Andreev- Student Number: 300168201 - Github Username : andreevdan - https://github.com/andreevdan <br />

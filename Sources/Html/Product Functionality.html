@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>KEYS Product Functionality</title>
 
 	<link rel="shortcut icon" type="image/png" href="../Img/icon_top2.png"/>
 	<link rel="stylesheet" href="../Css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="../Javascript/main.js"></script>
+
 	<style>
 		:root{
 			--background-color: linear-gradient(60deg, #5ff281, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f) 0 50%;
@@ -51,8 +53,10 @@
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 			max-width: 300px;
 			margin: auto;
+			color:rgb(158, 158, 158);
 			text-align: center;
 			font-family: arial;
+			padding-bottom: 10px;
 		}
 
 		.price {
@@ -65,7 +69,7 @@
 			outline: 0;
 			padding: 12px;
 			color: white;
-			background-color: #000;
+			background-color: rgba(14, 0, 66, 0.555);
 			text-align: center;
 			cursor: pointer;
 			width: 100%;
@@ -110,28 +114,30 @@
 
 		<!--button back to top-->
 		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../Img/Adds/Icons_table/Arrow_up.svg" width="25 px" height="25 px"></button>
+		
+		<div id="pd_interm2"></div>
 
 		<div class="pricing-section">
 			<div class="container-pricing">
 
 					<section class="model1">
-						<h1>Model1</h1>
-					<p>Affordable model</p>
+						<h1>Base</h1>
+					<p>Edition</p>
 					</section>
 
 					<section class="model2">
-						<h1>Model2</h1>
-					<p>Base model</p>
+						<h1>Upgraded</h1>
+					<p>Edition</p>
 					</section>
 
 					<section class="model3">
-						<h1>Model3</h1>
-					<p>High end model</p>
+						<h1>Pro</h1>
+					<p>Edition</p>
 					</section>
 
 					<section class="model4">
-						<h1>Model4</h1>
-					<p>Premium model</p>
+						<h1>Pro X</h1>
+					<p>Edition</p>
 					</section>
 
 
@@ -143,7 +149,9 @@
 			window.onscroll = function() {scrollFunction()};
 		</script>
 
-		
+		<div id="pd_interm2"></div>
+		<br>
+		<br>
 
 		
 
@@ -159,7 +167,7 @@
 					<table class="tb_one" style="margin-left:auto; margin-right:auto; width: 100%; ">
 						<tr class= "row_one">
 							<th>
-								<p>Affordble Model</p>
+								<p>Base Edition</p>
 								<br>
 								<img src="../Img/Adds/Icons_table/Afford.svg" alt = "" height="50 px" width="50px">
 								<br>
@@ -168,7 +176,7 @@
 							</th>
 		
 							<th>
-								<p>Base Model</p>
+								<p>Upgraded Edition</p>
 								<br>
 								<img src="../Img/Adds/Icons_table/Shapes.svg" alt = "" height="50 px" width="50px">
 								<br>
@@ -177,29 +185,29 @@
 							</th>
 		
 							<th>
-								<p>Luxury Model</p>
+								<p>Pro Edition</p>
 								<br>
 								<img src="../Img/Adds/Icons_table/Luxury_car.svg" alt = "" height="50 px" width="50px">
 								<br>
-								<h2>$ 1099 </h2>
+								<h2>$ 1299 </h2>
 								<button class="buy_buttons" onclick="send_to_buy()">Join The Family!</button>
 							</th>
 		
 							<th> 
-								<p>Premium /VIP Model</p>
+								<p>Pro X Edition</p>
 								<br>
 								<img src="../Img/Adds/Icons_table/Gold.svg" alt = "" height="50 px" width="50px">
 								<br>
-								<h2>$ 1399 </h2>
+								<h2>$ 1999 </h2>
 								<button class="buy_buttons" onclick="send_to_buy()">Join The Family!</button>
 							</th>
 						</tr>
 						<tr style="height: 20px;"></tr>
 						<tr class="table_text">
-							<th class="has-it" ><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time keeping</th>
+							<th class="has-it" ><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time-Keeping</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time-Keeping</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time-Keeping</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/watch.svg" height="15 px" width="15px"> Time-Keeping</th>
 						</tr>
 		
 						<tr class="table_text">
@@ -217,60 +225,55 @@
 						</tr>
 		
 						<tr class="table_text">
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 0.5 Years of Insurance</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 1 Years of Insurance</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 2 Years of Insurance</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 4 Years of Insurance</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 1 Years of Warranty</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 2 Years of Warranty</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 3 Years of Warranty</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Teeth.svg" height="15 px" width="15px"> 4 Years of Warranty</th>
 						</tr>
 		
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Touch interface</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Digital Interface</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Holographic Interface</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Holographic Interface</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Touch.svg" height="15 px" width="15px"> Holographic Interface</th>
 						</tr>
 		
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 0 Hours of  Battery Life</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 15 Hours of  Battery Life</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 48 Hours of  Battery Life</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 168 Hours of  Battery Life</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 12 Hours of Battery Life</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 24 Hours of Battery Life</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 48 Hours of Battery Life</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Power_charge.svg" height="15 px" width="15px"> 168 Hours of Battery Life</th>
 						</tr>
 		
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> Extrnal charging</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> External charging</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> External charging</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> External charging</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> Wireless Charging</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> Wireless Charging</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> Wireless Charging</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/VIB_Phone.svg" height="15 px" width="15px"> Wireless Charging</th>
 						</tr>
 		
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> 1 Users</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> 1 Users</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> Multiple Users</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> Multiple Users</th>
 							<th class="has-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> 3 Users</th>
 							<th class="has-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> 7 Users</th>
 						</tr>
-		
+
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Shild_v.svg" height="15 px" width="15px"> anti-virus</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> Integrated Speakers</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> Integrated Speakers</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> Integrated Speakers</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Meeting.svg" height="15 px" width="15px"> Integrated Speakers</th>
 						</tr>
 		
-						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Sec_cam.svg" height="15 px" width="15px"> Premium Security</th>
-						</tr>
 		
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilities</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilities</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilitiesy</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Needle.svg" height="15 px" width="15px"> Campadibilities</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Heart.svg" height="15 px" width="15px"> Premium Security</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Heart.svg" height="15 px" width="15px"> Premium Security</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Heart.svg" height="15 px" width="15px"> Premium Security</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Heart.svg" height="15 px" width="15px"> Premium Security</th>
 						</tr>
+		
 		
 						<tr class="table_text">
 							<th class="does-not-it"><img src="../Img/Adds/Icons_table//Hazard_flame.svg" height="15 px" width="15px"> Hazard Protection</th>
@@ -280,10 +283,10 @@
 						</tr>
 		
 						<tr class="table_text">
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px"> Upgradble model</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px">  Upgradble model</th>
-							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px">  Upgradble model</th>
-							<th class="has-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px">  Upgradble model</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px"> Upgradable Storage</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px">  Upgradable Storage</th>
+							<th class="does-not-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px">  Upgradable Storage</th>
+							<th class="has-it"><img src="../Img/Adds/Icons_table/Metor strike.svg" height="15 px" width="15px">  Upgradable Storage</th>
 						</tr>
 		
 					</table>
@@ -293,6 +296,42 @@
 			<hr style="height: 3px; color: white; margin: 40px 0px;">
 
 			<br><br><br>
+		</div>
+		<br>
+		<div class="extra_info">
+			<div class="info_item">
+				<div class="btn_info" style="margin-left: 40px;"><button id="btn1" onclick=open_base()></button></div>
+				<div id="base_info">
+					Your standard K.E.Y.S product, perfect for beginners.
+					This base model has the same storage capacity as a regular sized shoe box.
+				</div>
+			</div>
+			<div class="info_item">
+				<div class="btn_info" style="margin-left: 110px;"><button id="btn2" onclick=open_up()></button></div>
+				<div id="up_info">
+					The Upgraded version of the base product.
+					This is for the K.E.Y.S enthusiast.
+					With a storage space equivalent to a large backpack.
+					The Upgraded edition is plenty enough for your day to day life.
+				</div>
+			</div>
+			<div class="info_item">
+				<div class="btn_info" style="margin-left: 110px;"><button id="btn3" onclick=open_pro()></button></div>
+				<div id="pro_info">
+					K.E.Y.S Pro is built for the hard worker, this is our business model. 
+					With enough storage space to fill a Hiking backpack. 
+					You’ll never run out of space with the K.E.Y.S Pro. 
+				</div>
+			</div>
+			<div class="info_item">
+				<div class="btn_info" style="margin-left: 110px;"><button id="btn4" onclick=open_x()></button></div>
+				<div id="x_info">
+					K.E.Y.S Pro X is the ultimate edition.
+					This beast of a machine is our most powerful model yet. 
+					Enough space to fit a cargo shipping container. 
+					You’ll never have to worry about storage again.	
+				</div>			
+			</div>
 		</div>
 
 		<div class="lower-section section-divider" style="background-color: #0001087a; border-top: 8px dotted white; padding-top: 50 px;">
@@ -408,8 +447,12 @@
 				<div class="card">
 					<img src="../Img/winter.jpg" alt="" style="width:100%">
 					<h1>Santa's Time</h1>
-					<p class="price">$1000</p>
-					<p>Speacial order, seasonal speacial</p>
+					<p class="price">$299</p>
+					<p style="padding-left: 10px; padding-right: 10px; color: rgb(187, 187, 187);">
+						SPECIAL!<br>
+						Celebrate the christmas spirit with our Christmas themed K.E.Y.S!
+						Bundle up with a nice cup of hot cocoa and watch as your items become christmasified, with peppermint smells and nice christmas lights.
+					</p>
 					<p><button>Add to Cart</button></p>
 				  </div>
 			</td>
@@ -417,9 +460,14 @@
 			<td>
 				<div class="card">
 					<img src="../Img/fall.jpg" alt="" style="width:100%">
-					<h1>Cupids Arrow</h1>
-					<p class="price">$1000</p>
-					<p>Speacial order, seasonal speacial</p>
+					<h1>Pumpkin Spice</h1>
+					<p class="price">$299</p>
+					<p style="padding-left: 10px; padding-right: 10px; color: rgb(187, 187, 187);">
+						SPECIAL!<br>
+						This spooky edition will send shivers down your spine.
+						Watch as your K.E.Y.S get spookified. 
+						Your items will become haunted and transformed into halloween horrors.
+					</p>
 					<p><button>Add to Cart</button></p>
 				  </div>
 			</td>
@@ -427,9 +475,14 @@
 			<td>
 				<div class="card">
 					<img src="../Img/vday.jpeg" alt="" style="width:100%">
-					<h1>Pumkin Spice</h1>
-					<p class="price">$1000</p>
-					<p>Speacial order, seasonal speacial</p>
+					<h1>Cupid's Arrow</h1>
+					<p class="price">$299</p>
+					<p style="padding-left: 10px; padding-right: 10px; color: rgb(187, 187, 187);">
+						SPECIAL!<br>
+						Buy your special someone a nice surprise with our Valentines themed K.E.Y.S. 
+						This theme will let that special person in your life know that they're yours. 
+						Deliver your heart to theirs with our romanticized theme.
+					</p>
 					<p><button>Add to Cart</button></p>
 				  </div>
 			</td>
