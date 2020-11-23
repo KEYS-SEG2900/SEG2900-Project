@@ -1656,6 +1656,7 @@ background: #e2e2e2;
 
 .extra_info{
 	margin: 10px 100px;
+	height: 80px;
 }
 
 .info_item{
@@ -1671,8 +1672,10 @@ background: #e2e2e2;
 	overflow: hidden;
 }
 
+
 #base_info{
 	width: 300px;
+	transition: height 1s;
 	height: 0px;
 	overflow: hidden;
 	color: rgb(184, 184, 184);
@@ -1749,4 +1752,15 @@ background: #e2e2e2;
 	background-position: center;
 	background-repeat: repeat;
 	background-size: contain;
+}
+
+#pf_interm{
+	background-image: url("../Img/spikes.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100px;
+	filter: brightness(30%);
 }
