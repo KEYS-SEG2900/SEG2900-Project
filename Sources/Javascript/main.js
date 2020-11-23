@@ -231,3 +231,53 @@ function rotate_left(){
 	screen.style.filter="brightness(5%)";
 	screen.style.boxShadow="80px 0px rgba(0, 0, 0, 0.678)";
 }
+
+
+function open_base(){
+	var info=document.getElementById("base_info");
+	if (info.style.height=="fit-content"){
+		info.style.height="0px";
+		info.style.paddingBottom="0px";
+	}
+	else{
+		info.style.height="fit-content";
+		info.style.paddingBottom="50px";
+	}
+}
+
+function open_up(){
+	var info=document.getElementById("up_info");
+	if (info.style.height=="fit-content"){
+		info.style.height="0px";
+		info.style.paddingBottom="0px";
+	}
+	else{
+		info.style.height="fit-content";
+		info.style.paddingBottom="50px";
+	}
+}
+
+function open_pro(){
+	var info=document.getElementById("pro_info");
+	if (info.style.height=="fit-content"){
+		info.style.height="0px";
+		info.style.paddingBottom="0px";
+	}
+	else{
+		info.style.height="fit-content";
+		info.style.paddingBottom="50px";
+	}
+}
+
+
+function open_x(){
+	var info=document.getElementById("x_info");
+	if (info.style.height=="fit-content"){
+		info.style.height="0px";
+		info.style.paddingBottom="0px";
+	}
+	else{
+		info.style.height="fit-content";
+		info.style.paddingBottom="50px";
+	}
+}

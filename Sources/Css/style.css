@@ -1124,6 +1124,15 @@ background: #e2e2e2;
 	padding: 5 px;
 }*/
 
+.upper-section{
+	width:100%;
+	align-content: center;
+}
+
+.table_one{
+	width: 1500px;
+}
+
 #row_one {
 	border-bottom: 2px solid white;
 	padding: 5 px;
@@ -1131,7 +1140,7 @@ background: #e2e2e2;
 
 #table_one table, tr {
 	border: none;
-	padding: 5 px;
+	padding: 5px  10px;
 }
 
 #sec_one {
@@ -1142,7 +1151,6 @@ background: #e2e2e2;
 #row_one th{
 	border: 2px solid white;
 }
-
 
 
 /* HOME - Buy Now link*/
@@ -1640,4 +1648,105 @@ background: #e2e2e2;
 	float:left;
 	width:33.33%;
 	height: 166px;
+}
+
+
+
+/* MODELS - Extra Details */
+
+.extra_info{
+	margin: 10px 100px;
+}
+
+.info_item{
+	float:left;
+	overflow-wrap: auto;
+	text-align: center;
+	align-content: center;
+}
+
+.btn_info{
+	width: 200px;
+	height: 80px;
+	overflow: hidden;
+}
+
+#base_info{
+	width: 300px;
+	height: 0px;
+	overflow: hidden;
+	color: rgb(184, 184, 184);
+}
+
+#up_info{
+	width: 300px;
+	margin-left: 60px;
+	height: 0px;
+	overflow: hidden;
+	color: rgb(184, 184, 184);
+}
+
+#pro_info{
+	width: 300px;
+	margin-left: 60px;
+	height: 0px;
+	overflow: hidden;
+	color: rgb(184, 184, 184);
+}
+
+#x_info{
+	width: 300px;
+	margin-left: 60px;
+	height: 0px;
+	overflow: hidden;
+	color: rgb(184, 184, 184);
+}
+
+#btn1{
+	all:initial;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url("../Img/arrow_d.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+
+#btn2{
+	all:initial;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url("../Img/arrow_d.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+#btn3{
+	all:initial;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url("../Img/arrow_d.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+#btn4{
+	all:initial;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url("../Img/arrow_d.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: contain;
 }
