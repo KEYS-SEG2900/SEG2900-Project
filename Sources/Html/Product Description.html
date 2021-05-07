@@ -296,9 +296,25 @@
 			be afraid of others around you finding out what you own and keep - the
 			storage space is exclusively made for only your eyes.
 		</div>
-		<div style="width: 100%; text-align: center; color: rgb(100, 100, 100);">[Hover over the sides of the white rectangle below to see a demonstration of the privacy features at work]</div>
+		<div style="text-align: center; color: rgb(100, 100, 100); padding: 0px 350px; overflow-wrap:auto;">[Hover over the sides of the white rectangle below to see how the hollographic display behaves when a bystander looks at the screen from an angle]<br><br></div>
 		<div class="prot_screen">
-			<div id="screen-form"></div>
+			<div id="screen-form">
+				<div class="scr-row">
+					<div id="screen-left-top" class="screen_ele" onmouseover="rotate_left_t()" onmouseout="rotate_back()"></div>
+					<div id="screen-mid-top" class="screen_ele" onmouseover="rotate_top()" onmouseout="rotate_back()"></div>
+					<div id="screen-right-top" class="screen_ele" onmouseover="rotate_right_t()" onmouseout="rotate_back()"></div>
+				</div>
+				<div class="scr-row">
+					<div id="screen-left-mid" class="screen_ele" onmouseover="rotate_left()" onmouseout="rotate_back()"></div>
+					<div id="screen-mid-mid" class="screen_ele"></div>
+					<div id="screen-right-mid" class="screen_ele" onmouseover="rotate_right()" onmouseout="rotate_back()"></div>
+				</div>
+				<div class="scr-row">
+					<div id="screen-left-bot" class="screen_ele" onmouseover="rotate_left_b()" onmouseout="rotate_back()"></div>
+					<div id="screen-mid-bot" class="screen_ele" onmouseover="rotate_bot()" onmouseout="rotate_back()"></div>
+					<div id="screen-right-bot" class="screen_ele" onmouseover="rotate_right_b()" onmouseout="rotate_back()"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 
